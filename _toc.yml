@@ -10,31 +10,31 @@ parts:
 - caption: Creating interactive content with Jupyter Books
   chapters:
   - file: intro/whyjb
-  - file: content/github/intro
+  - file: content/1_github/intro
     sections:
-    - file: content/github/account
-    - file: content/github/project
-  - file: content/host/intro
+    - file: content/1_github/account
+    - file: content/1_github/project
+  - file: content/2_host/intro
     sections:
-    - file: content/host/course_template
-    - file: content/host/host_website
-    - file: content/host/setup_files
+    - file: content/2_host/course_template
+    - file: content/2_host/host_website
+    - file: content/2_host/setup_files
     - file: content/troubleshooting
-  - file: content/create/intro
+  - file: content/3_create/intro
     sections:
-    - file: content/create/files
-    - file: content/create/markdown
-    - file: content/create/media
-    - file: content/create/interactive
+    - file: content/3_create/files
+    - file: content/3_create/markdown
+    - file: content/3_create/media
+    - file: content/3_create/interactive
 - caption: Additional material
   chapters:
-  - file: content/additional/quick_tutorial
-  - file: content/additional/git/intro
+  - file: content/4_additional/quick_tutorial
+  - file: content/4_additional/git/intro
     sections:
-    - file: content/additional/git/install
-    - file: content/additional/git/version_control
-    - file: content/additional/git/use
-  - file: content/additional/jupyter_notebook
+    - file: content/4_additional/git/install
+    - file: content/4_additional/git/version_control
+    - file: content/4_additional/git/use
+  - file: content/4_additional/jupyter_notebook
   - file: resources/info
     sections:
     - file: resources/CoC
