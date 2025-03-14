@@ -2,7 +2,7 @@
 
 ## "What's in this repository?"
 
-This repository contains a tutorial on how to create interactive content with Jupyter Books of materials developed as part of the DiLER project of the Goethe-University Frankfurt.
+This repository contains a tutorial on how to create interactive content with Jupyter Books, developed as part of the DiLER project of the Goethe-University Frankfurt.
 
 [DiLER](https://diler-digitell.github.io/examples.html) (Digital Literacy for Empirical Research) aims to provide open and free educational resources to promote key digital skills for working in empirical sciences.
 
