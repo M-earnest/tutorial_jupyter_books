@@ -1,4 +1,4 @@
-![Logo](static/logo.png)
+![Logo](https://github.com/DiLER-Digitell/tutorial_jupyter_books/tree/main/static/logo.png)
 # **Welcome!**
 
 Hello and welcome everyone to the introduction page for the course **Creating interactive content with Jupyter Books** created as part of [DigiTeLL](www.uni-frankfurt.de/digitell), by the [DiLER](https://diler-digitell.github.io/intro.html) project. Our project aims to provide open and free educational resources to promote key digital skills for working in empirical sciences. 
