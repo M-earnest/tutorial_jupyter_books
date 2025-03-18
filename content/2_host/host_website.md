@@ -4,7 +4,7 @@ Now that you have created your own repo or forked the template, you will learn h
 The website is generated directly from the contents of your GitHub repo and is automatically updated whenever changes are made to the repository. 
 
 ## Goals
-This chapter aims to include the following goals. Do check back here later and you feel like the lesson addressed the stated goals appropriately!
+This chapter aims to include the following goals:
 
 1. Learn how to host a website using GitHub pages
 2. Learn some common error warnings and how to troubleshoot them 
@@ -13,8 +13,6 @@ This chapter aims to include the following goals. Do check back here later and y
 Normally, you'd have to set up a ["GitHub-pages-actions"](https://github.com/marketplace/actions/github-pages-action) script for the website to be automatically built on push, but the course template already contains everything you need. 
 
 If we take a closer look at the `.github/workflows` folder, we'll find a file called `book.yml`. This file already contains all the instructions necessary for GitHub to build your book automatically. All we need to do now is change a few of the settings of our online repo. 
-
-
 
 ### Setting Up Your Website
 
@@ -51,7 +49,5 @@ Once that process has been completed head back over to "Settings" -> "Pages". At
 Clicking on the displayed link should lead you to your newly built content site. Now, you can simply copy that link and add it to your repos README.md, so people can actually find your website.
 Done!
 
-
-
-
-
+## Next Section:
+In the next section, you will how to identify failed workflows and how to troubleshoot common errors.
