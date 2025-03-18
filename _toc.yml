@@ -16,7 +16,7 @@ parts:
     - file: content/1_github/project
   - file: content/2_host/host_website
     sections:
-    - file: content/troubleshooting
+    - file: content/2_host/troubleshooting
   - file: content/3_create/intro
     sections:
     - file: content/3_create/files
