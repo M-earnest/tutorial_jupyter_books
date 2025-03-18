@@ -34,11 +34,11 @@ To work with our materials, you need to "fork" (i.e., copy) the course template 
 
 Head over to the [course template repo](https://github.com/DiLER-Digitell/Course-template), and on the upper right-hand side, click "Fork". 
 
-<img src="../../static/fork_button.png?raw=true" alt="depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
+![depicting position a look of the fork button on a GitHub repository](../../static/fork_button.png)
 
 You'll be asked to create a new fork; simply add a new repository name, provide a short description, or keep the existing one, check the box "Copy the main branch only," and click the "Create fork" button.
 
-<img src="../../static/create_fork.png?raw=true" alt=" depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
+![depicting position a look of the fork button on a GitHub repository](../../static/create_fork.png)
 
 Now you created your own course repository!
 
@@ -46,8 +46,7 @@ Now you created your own course repository!
 
 **The course template is structured in the following way**
 
-<img src="../../static/repo.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
-
+![depicting the contents of the course template repository on GitHub](../../static/repo.png)
 
 Where:
 
@@ -63,7 +62,7 @@ Where:
 
 Now, most the things that you'll be adapting are contained in the content folder "lecture", which looks like this:
 
-<img src="../../static/lecture_folder.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
+![depicting the contents of the course template repository on GitHub](../../static/lecture_folder.png)
 
 Where:
 
@@ -91,11 +90,11 @@ It is further essential that you adapt the README and LICENSE files to your need
 
 To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the "README.md" file on your public repo. In the template, this looks like this:
 
-<img src="../../static/readme.png?raw=true" alt=" depicting the README" class="bg-primary" width="500px">
+![depicting the README](../../static/readme.png)
 
 and translates to this view at the bottom of your public remote repo:
 
-<img src="../../static/readme_rendered.png?raw=true" alt=" depicting the rendered README" class="bg-primary" width="500px">
+![depicting the rendered README](../../static/readme_rendered.png)
 
 So simply add the name and explanation of your course, your credentials, and, e.g., how others may get in contact with you to the README.md. Please keep the credit included to our original G0RELLA template lectures.
 
@@ -103,7 +102,7 @@ So simply add the name and explanation of your course, your credentials, and, e.
 
 You may further change the contained LICENSE file to your liking as long as you respect the stated stipulations.
 
-<img src="../../static/license.png?raw=true" alt=" depicting the LICENSE of the course template" class="bg-primary" width="500px">
+![depicting the LICENSE of the course template](../../static/license.png)
 
 ```
 Redistribution and use in source and binary forms, with or without
