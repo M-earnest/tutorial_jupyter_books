@@ -13,9 +13,6 @@ Now, let's put that new account to use by creating an online repository — ofte
 
 This could look something like this:
 
-<img src="https://diler-digitell.github.io/tutorial_jupyter_books/static/new_repo_example.png?raw=true" alt="depicting an example of a new repository" class="bg-primary" width="500px">
-
-
 ![depicting an example of a new repository](https://diler-digitell.github.io/tutorial_jupyter_books/static/new_repo_example.png)
 
 4. Check the box "Add a README file", this will initiate your repository with a file that can later be used to display basic information to others viewing your repo.
@@ -35,38 +32,38 @@ To work with our materials, you need to "fork" (i.e., copy) the course template 
 
 ### 1. Fork the Course Template
 
-Head over to the [course template repo](https://github.com/DiLER-Digitell/Course-template), and on the upper right-hand side, click "fork". 
+Head over to the [course template repo](https://github.com/DiLER-Digitell/Course-template), and on the upper right-hand side, click "Fork". 
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/fork_button.png?raw=true" alt="depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
+<img src="../../static/fork_button.png?raw=true" alt="depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
 
-You'll be asked to create a new fork; simply add a new repository name, provide a short description, or keep the existing one, check the box "Copy the main branch only," and click the "create fork" button.
+You'll be asked to create a new fork; simply add a new repository name, provide a short description, or keep the existing one, check the box "Copy the main branch only," and click the "Create fork" button.
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/create_fork.png?raw=true" alt=" depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
+<img src="../../static/create_fork.png?raw=true" alt=" depicting position a look of the fork button on a GitHub repository" class="bg-primary" width="500px">
 
 Now you created your own course repository!
 
-### 2. Getting Familiar with the Structure and Existing Files
+### 2. Getting Familiar with the Structure and the Existing Files
 
 **The course template is structured in the following way**
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/repo.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
+<img src="../../static/repo.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
 
 
 Where:
 
-- **.github/workflows folder**: contains the prewritten scripts to automatically create your website every time new content is pushed online.
+- **.github/workflows folder**: Contains the prewritten scripts to automatically create your website every time new content is added.
 
-- **lecture**: contains all our content files and directories, as well as the "toc.yml" and the "config.yml" files, which define the structure and functionality of the website.
+- **lecture**: Contains all our content files and directories, as well as the "toc.yml" (transcript of records) and the "config.yml" files, which define the structure and functionality of the website.
 
-- **README**: a short explanation of your website/course.
+- **README**: A short explanation of your website/course.
 
-- **LICENSE**: self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.
+- **LICENSE**: Self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.
 
-- **requirements.txt**: contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here.
+- **requirements.txt**: Contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here.
 
-Now, most the things that you'll be adapting are contained in the content folder "lecture", which looks like this.
+Now, most the things that you'll be adapting are contained in the content folder "lecture", which looks like this:
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/lecture_folder.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
+<img src="../../static/lecture_folder.png?raw=true" alt="depicting the contents of the course template repository on GitHub" class="bg-primary" width="500px">
 
 Where:
 
@@ -76,11 +73,11 @@ Where:
 
 - **introduction**: Contains files making up the introductory sessions of a course.
 
-- **static**: Contains all the pictures and graphs contained in a course. It's recommended that should you add new files. e.g., a course logo to this folder.
+- **static**: Contains all the pictures and graphs contained in a course. 
 
-- **config.yml**: Contains the course title, authors, and copyright notice at the footer of the website, which you should change before hosting your website. Further, it contains the specifics for the technical implementations of a course, e.g., whether Jupyter notebooks should be re-run every time the course website is created  by the GitHub workflow or, e.g., whether a course incorporated interactive elements.
+- **config.yml**: Contains the course title, authors, and copyright notice at the footer of the website, which you should change before hosting your website. Further, it contains the specifics for the technical implementations of a course, e.g., whether Jupyter notebooks should be re-run every time the course website is created by the GitHub workflow or, e.g., whether a course incorporated interactive elements.
 
-- **toc.yml**: Contains information on the structure of the course website. For an in-depth explanation, jump to the [respective section](https://diler-digitell.github.io/Jupyter-Book/content/setup-files.html).
+- **toc.yml**: Contains information on the structure of the course website. For an in-depth explanation, jump to the [respective section](../content/setup-files).
 
 <br>
 
@@ -94,11 +91,11 @@ It is further essential that you adapt the README and LICENSE files to your need
 
 To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the "README.md" file on your public repo. In the template, this looks like this:
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/readme.png?raw=true" alt=" depicting the README" class="bg-primary" width="500px">
+<img src="../../static/readme.png?raw=true" alt=" depicting the README" class="bg-primary" width="500px">
 
 and translates to this view at the bottom of your public remote repo:
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/readme_rendered.png?raw=true" alt=" depicting the rendered README" class="bg-primary" width="500px">
+<img src="../../static/readme_rendered.png?raw=true" alt=" depicting the rendered README" class="bg-primary" width="500px">
 
 So simply add the name and explanation of your course, your credentials, and, e.g., how others may get in contact with you to the README.md. Please keep the credit included to our original G0RELLA template lectures.
 
@@ -106,7 +103,7 @@ So simply add the name and explanation of your course, your credentials, and, e.
 
 You may further change the contained LICENSE file to your liking as long as you respect the stated stipulations.
 
-<img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/license.png?raw=true" alt=" depicting the LICENSE of the course template" class="bg-primary" width="500px">
+<img src="../../static/license.png?raw=true" alt=" depicting the LICENSE of the course template" class="bg-primary" width="500px">
 
 ```
 Redistribution and use in source and binary forms, with or without
@@ -130,12 +127,3 @@ Before going into detail on how to add and modify this template to your needs, y
 #### Next Chapter:
 In the next chapter, you will discover how to publish and maintain your own course website.
 
-
-
-Of course, you can start to add markdown files or Jupyter Notebook files in e.g., the introduction or content folder according to your needs or simply adapt the already existing files.
-
-You will learn how to modify this template and add files according to your needs in the chapter on ["Creating Content"](https://diler-digitell.github.io/Jupyter-Book/content/create/intro.html).
-
-
-Next, you want to add all your new files to your "toc.yml" file, as described here:
-* [Structuring content](https://felixkoerber.github.io/jb/tutorialcontent/structure.html)
