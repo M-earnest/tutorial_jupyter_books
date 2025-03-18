@@ -3,7 +3,7 @@
 In this section, you'll first learn how to start a new project on GitHub, followed by a step-by-step guide on how to use the free course template for your own course. By using our course template instead of starting a completely new project, you can take advantage of the existing structure and only need to customize and add individual pages to fit your content.
 
 ## Create a New Repository
-Now, let's put that new account to use by creating an online repository — often called a "remote repo"!
+Now, let's put that new account to use by creating an online repository — often called a "remote repo"! 
 
 1. Open Github in your browser
 
@@ -14,6 +14,7 @@ Now, let's put that new account to use by creating an online repository — ofte
 This could look something like this:
 
 <img src="https://diler-digitell.github.io/Jupyter-Book/main/static/new_repo_example.png?raw=true" alt="depicting an example of a new repository" class="bg-primary" width="500px">
+![depicting an example of a new repository](https://diler-digitell.github.io/Jupyter-Book/main/static/new_repo_example.png)
 
 4. Check the box "Add a README file", this will initiate your repository with a file that can later be used to display basic information to others viewing your repo.
 
