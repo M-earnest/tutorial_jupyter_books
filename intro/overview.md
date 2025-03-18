@@ -21,12 +21,16 @@ This tutorial is further paired with a template course that you can find [here](
 **The course is structured as follows:**
 
 1) **[Why Jupyter Books? An Introduction](whyjb)**
+
 Explore the advantages of free and accessible online courses and how Jupyter Books can enhance digital teaching.
-2) **[Getting Started with GitHub](../content/1_github/intro)**
+
+3) **[Getting Started with GitHub](../content/1_github/intro)**
+
 Learn what GitHub is, how to create an account, and how to start a new project.
-3) **[Hosting Your Course Website](../content/2_host/intro)**
+
+5) **[Hosting Your Course Website](../content/2_host/host_website)**
 Discover how to publish and maintain your own course website using our course template.
-4) **[Creating Engaging Content](../content/3_create/intro)**
+6) **[Creating Engaging Content](../content/3_create/intro)**
 Master the basics of creating and editing files, formatting with Markdown, and embedding media.
 
 **Additional sections:** 
