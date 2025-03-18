@@ -69,7 +69,7 @@ sphinx:
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
   config:
-    mathjax_config:
+    mathjax3_config:
       TeX:
         Macros:
           "N": "\\mathbb{N}"
