@@ -16,7 +16,7 @@ If we take a closer look at the `.github/workflows` folder, we'll find a file ca
 
 ### Setting Up Your Website
 
-**1.Open your repository in your browser and click on "Settings" in the top tab, located on the far right.**
+**1. Open your repository in your browser and click on "Settings" in the top tab, located on the far right.**
 
 ![Image of the tab where the word "Settings" is located on the far right](../../static/settings.png)
 
@@ -32,7 +32,7 @@ If we take a closer look at the `.github/workflows` folder, we'll find a file ca
 
 ![Image of the settings under Branch.](../../static/branch.png)
 
-**5.Push a new commit to your repo, i.e. make a change to one file (e.g., add a line to your README.md)**
+**5. Push a new commit to your repo, i.e. make a change to one file (e.g., add a line to your README.md)**
 
 ### Checking Your Workflow
 
