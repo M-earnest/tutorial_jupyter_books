@@ -7,19 +7,19 @@ As you read through the subsections of this website, you will gain insight into 
 
 While this tutorial was created with the goal of an integrated framework for digital education at Goethe University, this doesn't limit the content to members of Goethe University: We utilize free, open-source software available to anyone.
 
-## What is the aim of this course?
+## What Is the Aim of This Course?
 In this online course, we first want to emphasise the benefits of free and accessible online courses and why they should be of interest to lecturers/trainers. Then, you will learn how to create your own free online resources for higher education using our course template. 
 
-## How did we get here?
+## How Did We Get Here?
 We believe that education should be available to as many people as possible, which is why this website is created as an open and free resource; if you'd like to create a course following our framework, please consider doing the same. Especially important should be the inclusion (and possibly adaptation) of our diversity, equity, and inclusion statement, our open science statement, and the Code of Conduct to promote fair and inclusive access to education. 
 
-## The goal of our project
+## The Goal of Our Project
 
 The DiLER project aims to create a framework for providing, bundling, and introducing the benefits of free, open-source resources for promoting research-based learning, with a focus on the core competency of "digital literacy" in empirical sciences. This is done through multimedia, competence-oriented content, and exams that cover the entire empirical research process, using examples from various requirements of psychology studies. 
 
 Our project places a strong emphasis on promoting sustainability and transferability to other content and application areas, supported by integrated feedback options for students and teachers, and incorporating necessary hardware and software infrastructure. The project also primarily follows the FAIR principles (Findability, Accessibility, Interoperability, and Reuse of digital assets) in order to maximize the benefits and accessibility of provided materials.
 
-## Mission statement: Digital Literacy
+## Mission Statement: Digital Literacy
 
 With the surge of progressively more available and interconnected data, *Digital Literacy* has become a skill integral in teaching, science, and everyday life. Digital Literacy is a term describing competencies of using modern information technology, managing information, thinking critically, and selecting and applicating these reasonably. These skills are not only relevant due to the increasing levels of complexity of science, limited access to resources, and transparencies of digital infrastructures, but also necessary for independent empirical research.
 
