@@ -29,6 +29,9 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    - name: Ensure _build directory exists
+      run: mkdir -p _build/html
+
     # Build the book
     - name: Build the book
       run: |
