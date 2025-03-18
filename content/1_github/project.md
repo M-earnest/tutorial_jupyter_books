@@ -13,7 +13,7 @@ Now, let's put that new account to use by creating an online repository — ofte
 
 This could look something like this:
 
-![depicting an example of a new repository](https://diler-digitell.github.io/tutorial_jupyter_books/static/new_repo_example.png)
+![depicting an example of a new repository](../../static/new_repo_example.png)
 
 4. Check the box "Add a README file", this will initiate your repository with a file that can later be used to display basic information to others viewing your repo.
 
