@@ -65,7 +65,7 @@ This template is supposed to be used as a starting point to generate your own co
 
 If you have questions about course content - these are awesome! We want everyone to see them and have their questions answered, too, so you could use the [hypothes.is](https://web.hypothes.is/) plugin, on the right-hand side of this website. Overlayed over the scroll bar, you'll find buttons/functionality to annotate and highlight relevant information about this website. Feel free to use this tool to discuss, annotate, or ask questions regarding the site content there!
 
-This is how the hypothes.is buttons look like: <img src="https://github.com/DiLER-Digitell/Jupyter-Book/main/static/hypothesis.png?raw=true" alt="depicting the hypothesis buttons" class="bg-primary" width="300px"> Press the top arrow to display the sidebar.
+This is how the hypothes.is buttons look like: <img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/main/static/hypothesis.png?raw=true" alt="depicting the hypothesis buttons" class="bg-primary" width="300px"> Press the top arrow to display the sidebar.
 
 Otherwise, feel free to [open an issue](https://github.com/DiLER-Digitell/tutorial_jupyter_books/issues) on the GitHub repository, and someone will try and get back to you as soon as possible or simply shoot us an e-mail!
 
