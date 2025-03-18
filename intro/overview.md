@@ -2,9 +2,9 @@
 
 Now that you've got an idea of what this website is about let's discuss how we'll hopefully get your course up and running. This section will clarify this course's structure and general setup.
 
-The course is divided into several modules, each covering a step in creating your course. The modules include an introduction in GitHub, how you host your course website and how you create and structure your content. You can simply start from the beginning and work your way down through all respective sections. If you're already familiar with the concepts of GitHub and the Jupyter Framework, you can also go to the [Quick Setup Guide](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/quick_tutorial.html) for a very quick tutorial to creating and hosting your own course.
+The course is divided into several modules, each covering a step in creating your course. The modules include an introduction in GitHub, how you host your course website and how you create and structure your content. You can simply start from the beginning and work your way down through all respective sections. If you're already familiar with the concepts of GitHub and the Jupyter Framework, you can also go to the [Quick Setup Guide](../content/4_additional/quick_tutorial) for a very quick tutorial to creating and hosting your own course.
 
-This tutorial is further paired with a template course that you can find [here](https://github.com/diler-digitell/course-template). We'll, in essence, teach you how to adapt this template to host your own online courses. An explanation of the template can be found in the chapter on [Hosting Your Course Website](https://diler-digitell.github.io/tutorial_jupyter_books/content/2_host/intro).
+This tutorial is further paired with a template course that you can find [here](https://github.com/diler-digitell/course-template). We'll, in essence, teach you how to adapt this template to host your own online courses. An explanation of the template can be found in the chapter on [Hosting Your Course Website](../content/2_host/intro).
 
 
 ## Objectives 📍
@@ -20,27 +20,27 @@ This tutorial is further paired with a template course that you can find [here](
 
 **The course is structured as follows:**
 
-1) **[Why Jupyter Books? An Introduction](https://diler-digitell.github.io/tutorial_jupyter_books/intro/whyjb)**
+1) **[Why Jupyter Books? An Introduction](whyjb)**
 Explore the advantages of free and accessible online courses and how Jupyter Books can enhance digital teaching.
-2) **[Getting Started with GitHub](https://diler-digitell.github.io/tutorial_jupyter_books/content/1_github/intro)**
+2) **[Getting Started with GitHub](../content/1_github/intro)**
 Learn what GitHub is, how to create an account, and how to start a new project.
-3) **[Hosting Your Course Website](https://diler-digitell.github.io/tutorial_jupyter_books/content/2_host/intro)**
+3) **[Hosting Your Course Website](../content/2_host/intro)**
 Discover how to publish and maintain your own course website using our course template.
-4) **[Creating Engaging Content](https://diler-digitell.github.io/tutorial_jupyter_books/content/3_create/intro)**
+4) **[Creating Engaging Content](../content/3_create/intro)**
 Master the basics of creating and editing files, formatting with Markdown, and embedding media.
 
 **Additional sections:** 
-- **[Quick Setup Guide](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/quick_tutorial)**
+- **[Quick Setup Guide](../content/4_additional/quick_tutorial)**
 Follow a step-by-step guide to quickly set up and deploy your course using Jupyter Book on GitHub. 
-- **[Introduction to Git](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/git/intro)**
+- **[Introduction to Git](../content/4_additional/git/intro)**
 Learn what Git is and how to use it for local editing and version control.
-- **[Introduction to Jupyter Notebooks](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/jupyter_notebooks)**
+- **[Introduction to Jupyter Notebooks](../content/4_additional/jupyter_notebooks)**
 Learn the fundamentals of Jupyter Notebooks and how to use them for interactive content.
-- **[Introduction to Google Colab](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/colab)**
+- **[Introduction to Google Colab](../content/4_additional/colab)**
 Discover how to integrate automatically gradable coding assignments into your course.
-- **[Resources for Your Course](https://diler-digitell.github.io/tutorial_jupyter_books/resources/info)**
+- **[Resources for Your Course](../resources/info)**
 Explore resources to help create a safe, inclusive, and productive course environment. 
-- **[Course Examples](https://diler-digitell.github.io/tutorial_jupyter_books/resources/demo)**
+- **[Course Examples](../resources/demo)**
 Check out courses already created and maintained by the DiLER project.
 
 You can also find the sections in the Table of Content on the left side. 
@@ -50,7 +50,7 @@ You can also find the sections in the Table of Content on the left side.
 
 Everything we'll use is [open-source software](https://en.wikipedia.org/wiki/Open-source_software) or, at minimum, free of charge and publicly available. Why? Because teaching via [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) is just not fair and doesn't align with our values (see our [open science statement](https://diler-digitell.github.io/tutorial_jupyter_books/resources/open_science.html)). We don't want people to have to obtain licenses or be dependent on university resources or pay for software/hosting, etc., out of their own pocket. Additionally, open-source software can do everything, if not more than proprietary software and is furthermore usually better supported, tested, and documented, creating a fantastic sense of community. 
 
-To complete this course and host your own course website, all you need is a GitHub account. How to set it up is explained in the [respective section](https://github.com/diler-digitell/content/1_github/account). If you want to edit your course content locally, you will also need to install Git and a text editor that supports Markdown and Jupyter Notebook files. More information on this can be found in the [additional section on Git](https://diler-digitell.github.io/tutorial_jupyter_books/content/4_additional/git/intro).
+To complete this course and host your own course website, all you need is a GitHub account. How to set it up is explained in the [respective section](../content/1_github/account). If you want to edit your course content locally, you will also need to install Git and a text editor that supports Markdown and Jupyter Notebook files. More information on this can be found in the [additional section on Git](../content/4_additional/git/intro).
 
 
 ## Where is Everything?
@@ -65,7 +65,9 @@ This template is supposed to be used as a starting point to generate your own co
 
 If you have questions about course content - these are awesome! We want everyone to see them and have their questions answered, too, so you could use the [hypothes.is](https://web.hypothes.is/) plugin, on the right-hand side of this website. Overlayed over the scroll bar, you'll find buttons/functionality to annotate and highlight relevant information about this website. Feel free to use this tool to discuss, annotate, or ask questions regarding the site content there!
 
-This is how the hypothes.is buttons look like: <img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/main/static/hypothesis.png?raw=true" alt="depicting the hypothesis buttons" class="bg-primary" width="300px"> Press the top arrow to display the sidebar.
+This is how the hypothes.is buttons look like: 
+![image of the hypothesis buttons](../static/hypothesis.png) 
+Press the top arrow to display the sidebar.
 
 Otherwise, feel free to [open an issue](https://github.com/DiLER-Digitell/tutorial_jupyter_books/issues) on the GitHub repository, and someone will try and get back to you as soon as possible or simply shoot us an e-mail!
 
