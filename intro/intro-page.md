@@ -3,7 +3,7 @@
 
 Hello and welcome everyone to the introduction page for the course **Creating interactive content with Jupyter Books** created as part of [DigiTeLL](www.uni-frankfurt.de/digitell), by the [DiLER](https://diler-digitell.github.io/intro.html) project. Our project aims to provide open and free educational resources to promote key digital skills for working in empirical sciences. 
 
-As you read through the subsections of this website, you will gain insight into how to create beautiful, easy-to-deploy, and interactive content quickly. Simply follow the outline discussed in the [Course Overview & Procedure section](https://diler-digitell.github.io/tutorial_jupyter_books/intro/overview.html) to learn what this course is about and how to navigate the materials.
+As you read through the subsections of this website, you will gain insight into how to create beautiful, easy-to-deploy, and interactive content quickly. Simply follow the outline discussed in the [Course Overview & Procedure section](overview) to learn what this course is about and how to navigate the materials.
 
 While this tutorial was created with the goal of an integrated framework for digital education at Goethe University, this doesn't limit the content to members of Goethe University: We utilize free, open-source software available to anyone.
 
