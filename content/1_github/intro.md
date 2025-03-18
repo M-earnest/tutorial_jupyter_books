@@ -18,7 +18,7 @@ Content is mainly organized in repositories (or "repos" for short); these repos 
 
 Here is the repository for the course template you'll be working with. Do not worry if that's still confusing to you; learning how to work with GitHub is best done using a "learning-by-doing" approach.
 
-![png depicting the file structure of the course template repository](https://github.com/DiLER-Digitell/tutorial_jupyter_books/static/template_structure.png)
+![png depicting the file structure of the course template repository](../../static/template_structure.png)
 
 GitHub, or the underlying version control system "Git", is basically used in every large software project that you can think of. A GitHub server may be set up on a local machine or network if the access to the hosted software or data should be restricted, but we'll be using the public GitHub server, i.e., the [web-based version of GitHub](https://github.com). In essence, this allows us to openly share and for other people to make copies or download our projects, e.g., for collaborative development or issue tracking. It further allows for feedback on our courses or the reporting of possible errors people may have encountered.
 
@@ -29,7 +29,7 @@ This project is built on the idea that the knowledge that we're trying to share 
 I'm sure we've all lost important documents, codes, or progress while working in academia. If you've been doing programming work, you might also have encountered that fixing a bug may lead to other substantial bugs down the line. 
 So people generally tend to come up with their own solution for "project management," e.g., by maintaining multiple files, e.g., project_working_copy_1.txt, project_notes.txt,  project_final_draft_3.txt or at times by making a mess of our documents by storing cut or to be implemented content in its own sub-section at the end of project_draft_4.txt.
 
-GitHub alleviates that problem by making use of Git, a distributed version control system that records every change made to a file (see our [additional chapter on Git](https://diler-digitell.github.io/tutorial_jupyter_books/content/additional/git/intro) for more details). Via the commit system, we can not only maintain different versions of the same file on, e.g., your local system and the connected public repository, but also revert changes that had negative consequences or recover information lost on your system.
+GitHub alleviates that problem by making use of Git, a distributed version control system that records every change made to a file (see our [additional chapter on Git](../additional/git/intro) for more details). Via the commit system, we can not only maintain different versions of the same file on, e.g., your local system and the connected public repository, but also revert changes that had negative consequences or recover information lost on your system.
 
 Git further makes it easy to work with multiple users on the same project, as each user can maintain their local versions and submit their changes to the public directory, which can then be reviewed by the team on quality and compatibility and subsequently be incorporated into the online project.
 
