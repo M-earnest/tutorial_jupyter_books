@@ -1,6 +1,6 @@
 # Creating Engaging Content 
 
-**Jupyter Book** allows for the integration of various markup languages and formats, including Markdown files, Jupyter notebooks, MyST Markdown notebooks, reStructured Text, and more.
+**Jupyter Book** allows for the integration of various markup languages and formats, including Markdown files, Jupyter notebooks, MyST Markdown notebooks, reStructured Text, and more. In this chapter, you will learn how to create content that is engaging to the user.
 
 ## Goals
 
@@ -13,15 +13,11 @@ This chapter aims to include the following goals.
 5. Learn how to include feedback questions.
 6. Learn how to set up an online repository (your course).
 
-MyST is a markup language that draws inspiration from RMarkdown and is fully integrated for use with Jupyter Book. It allows for more advanced formatting options and the ability to include interactive elements, such as widgets and code snippets, within your content. Jupyter Book is able to parse MyST in both .ipybn and .md files, allowing for flexible content creation.
+## Different File Types for Various Purposes
 
-Here, we present only a short overview of the features of MyST. However, there is much more documentation on [the MyST website.](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#syntax-core)
+In this tutorial, we will focus on using Markdown (.md) files, as Markdown is a powerful and easy-to-learn formatting language. It is ideal for primarily text-based content, as well as for embedding multimedia such as images and videos. If you want to include code and visualizations for scientific computing, we recommend using Jupyter Notebook (.ipynb) files.
 
-## First things first
-
-Open up Visual Studio Code (or Jupyter Lab if you prefer using that). Create a new file by clicking on "File" and then on "New File." Here, you can choose which file format you want to choose. Choose .iypbn for interactive Files or create a new one.md (Markdown) file in the folder for your project.
-
-### .iypbn vs .md - When should we use what?
+Here’s an overview of both file types:
 
 ````{tab} .ipynb
 `.ipynb` files are Jupyter Notebook files and are primarily used for interactive data science and scientific computing. They allow for the combination of code, text, and visualizations all in one place, making it easy to document and share code-driven projects. They are often used by data scientists and researchers to share their work with others and can be easily converted to other formats like .html or .pdf for sharing.
@@ -33,5 +29,24 @@ Open up Visual Studio Code (or Jupyter Lab if you prefer using that). Create a n
 
  **.md files are best for documentation, READMEs, and other types of text-based content**
 ````
+
+## Create a New File
+
+To create a new file, click on "Add file" on the upper-right corner, then select "Create new file".
+
+![Image of the "add file" button and the "create new file" option.](../../static/new_file)
+
+Next, give your file a name and specify the file type, such as "introduction.md" to create a Markdown file.
+
+![Image of the field where the file name is entered, with "introduction.md" written in it.](../../static/include_type)
+
+Now, you can add your content to the file.
+
+## Next Section:
+
+In both .ipybn and .md files, Jupyter Book is able to parse MyST, a markup language that draws inspiration from RMarkdown. It allows for more advanced formatting options and the ability to include interactive elements, such as widgets and code snippets, within your content. 
+
+In the next section, we present only a short overview of the features of MyST. However, there is much more documentation on [the MyST website.](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#syntax-core)
+
 
 
