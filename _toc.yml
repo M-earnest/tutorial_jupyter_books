@@ -14,11 +14,8 @@ parts:
     sections:
     - file: content/1_github/account
     - file: content/1_github/project
-  - file: content/2_host/intro
+  - file: content/2_host/host_website
     sections:
-    - file: content/2_host/course_template
-    - file: content/2_host/host_website
-    - file: content/2_host/setup_files
     - file: content/troubleshooting
   - file: content/3_create/intro
     sections:
