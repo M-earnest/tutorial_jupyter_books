@@ -84,6 +84,24 @@ Where:
 
 To get started, let's take a look into the "index.md" and the "config.yml" file and exchange the information with your course title, author's names and affiliation, and so on.
 
+To edit a file, click on the specific file (e.g., config.yml). 
+
+![Image of the file structure.](../../static/click_on_file.png)
+
+Then, click the edit button, represented by a small pencil in the upper right corner. 
+
+![Image of the edit button on the upper right corner.](../../static/edit_file.png)
+
+Once you're done editing, click on "Commit changes...". 
+
+![Image of the commit changes button.](../../static/commit_changes.png)
+
+For transparency and version control, provide a brief message describing the changes you made.
+
+![Image of the pop-up window in which one can write the commit message](../../static/commit_message.png)
+
+As soon as you click on "Commit changes", your changes will be saved.
+
 It is further essential that you adapt the README and LICENSE files to your needs:
 
 #### The README
