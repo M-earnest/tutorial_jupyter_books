@@ -23,6 +23,7 @@ parts:
     - file: content/3_create/markdown
     - file: content/3_create/media
     - file: content/3_create/interactive
+    - file: content/3_create/setup-files
 - caption: Additional material
   chapters:
   - file: content/4_additional/quick_tutorial
