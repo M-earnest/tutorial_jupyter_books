@@ -36,11 +36,11 @@ Here’s an overview of both file types:
 
 To create a new file, click on "Add file" on the upper-right corner, then select "Create new file".
 
-![Image of the "add file" button and the "create new file" option.](../../static/new_file)
+![Image of the "add file" button and the "create new file" option.](../../static/new_file.png)
 
 Next, give your file a name and specify the file type, such as "introduction.md" to create a Markdown file.
 
-![Image of the field where the file name is entered, with "introduction.md" written in it.](../../static/include_type)
+![Image of the field where the file name is entered, with "introduction.md" written in it.](../../static/include_type.png)
 
 Now, you can add your content to the file.
 
