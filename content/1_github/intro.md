@@ -1,4 +1,4 @@
-# Getting Started with GitHub
+# Getting Started With GitHub
 
 To publish your course/website, we will be relying on GitHub, a web-based platform that provides hosting and storage services for software and data. 
 
