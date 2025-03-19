@@ -259,6 +259,14 @@ Example: `<https://www.markdownguide.org/basic-syntax/>`
 
 Result: <https://www.markdownguide.org/basic-syntax/>
 
+### Include Citations
+
+In addition to linking external URLs, you can also include DOI links in your Markdown file. These will automatically be transformed into citations with a pop-up panel on hover, like this: [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040). The full reference will then be added to the reference section at the bottom of your page. 
+
+Example: `[Cockett, 2022](https://doi.org/10.5281/zenodo.6476040)`
+Result: [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040)
+
+
 ## Next Section:
 
 In the next section, you will learn how to embed images, videos, and slides.
