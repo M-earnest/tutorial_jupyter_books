@@ -4,3 +4,4 @@ numpy
 sphinx-inline-tabs
 pandas
 plotly
+scipy
