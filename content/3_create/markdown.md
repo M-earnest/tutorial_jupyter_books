@@ -210,9 +210,9 @@ Where `{rolename}`would be the name of the role.
 
 For instance, if you want to reference another page of your book, you can use the `{doc}`role:
 ```
-{doc}`../intro`
+{doc}`../1_github/intro`
 ``` 
-results in {doc}`../intro`  
+results in {doc}`../1_github/intro`  
 
 
 #### What Roles and Directives are available?
