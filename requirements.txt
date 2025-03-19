@@ -3,3 +3,4 @@ matplotlib
 numpy
 sphinx-inline-tabs
 pandas
+plotly
