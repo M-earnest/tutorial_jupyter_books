@@ -9,7 +9,7 @@ This chapter aims to include the following goals.
 1. Learn which types of files you can integrate into your Jupyter Book.
 2. Learn how to create new files.
 3. Learn how to format your text with Markdown.
-4. Learn how to embedd images, videos, and slides.
+4. Learn how to embed images, videos, and slides.
 5. Learn how to include citations. 
 6. Learn how to include feedback questions.
 7. Learn how to set up your table of content.
