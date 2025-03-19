@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Styling: The Look and Feel
+# Formatting with Markdown
 
 To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. 
 Luckily, Jupyter Book has plenty of different options to format text, including media and much more.
@@ -206,7 +206,7 @@ Here is a note
  Some content {rolename}`and here is my role's content!`
  ```
  
-Where `{rolename}`would be the name of the role.
+Where `{rolename}` would be the name of the role.
 
 For instance, if you want to reference another page of your book, you can use the `{doc}`role:
 ```
@@ -215,12 +215,46 @@ For instance, if you want to reference another page of your book, you can use th
 results in {doc}`../1_github/intro`  
 
 
-#### What Roles and Directives are available?
-
-There is more information on how to use Roles and Directives in [Media](./media.ipynb), feel free to check it out!
+#### What Roles and Directives Are Available?
 
 For more information on what roles and directives you can use, check out:
 * The [Sphinx directives page](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html) 
 * The [reStructured Text directives page](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
 * For building [custom Special content blocks](https://jupyterbook.org/en/stable/content/content-blocks.html)
+
+
+### Include Links
+
+When adding links, you have several options. Here are the most common methods:
+
+#### External Links
+To link to an external website, use the following format: `[text](https://example.com)`
+
+Example: `[formatting with markdown](https://www.markdownguide.org/basic-syntax/)`
+
+Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/).
+
+#### Linking Another Page In Your Course
+If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
+
+Example: `Check the [previous chapter](../2_host/intro)
+
+Result: Check the [previous chapter](../2_host/intro)
+
+This method gives you full flexibility in how you phrase the link text. Alternatively, you can use the {doc} role, as explained earlier.
+
+#### Direct URL
+You can also display a URL as a clickable link without custom text by using angle brackets < >: `<URL>`
+
+Example: `<https://www.markdownguide.org/basic-syntax/>`
+
+Result: <https://www.markdownguide.org/basic-syntax/>
+
+
+## Next Section:
+
+In the next section, you will learn how to embed images, videos, and slides.
+
+
+
 
