@@ -109,4 +109,87 @@ Let's use `%%latex` to render a block of `latex`:
     %matplotlib inline
 ```
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+```python
+x = np.linspace(0, 2*np.pi, 300)
+y = np.sin(x**2)
+plt.plot(x, y)
+plt.title("A little chirp")
+fig = plt.gcf()  # let's keep the figure object around for later...
+```
+
+
+```python
+import plotly.figure_factory as ff
+
+# Add histogram data
+x1 = np.random.randn(200) - 2
+x2 = np.random.randn(200)
+x3 = np.random.randn(200) + 2
+x4 = np.random.randn(200) + 4
+
+# Group data together
+hist_data = [x1, x2, x3, x4]
+
+group_labels = ['Group 1', 'Group 2', 'Group 3', 'Group 4']
+
+# Create distplot with custom bin_size
+fig = ff.create_distplot(hist_data, group_labels, bin_size=.2)
+fig.show()
+```
+
+### Special Content Blocks - Directives and Roles
+Directives and Roles are somewhat similiar to functions for markup language and allow for specific customizations of the look and feel of your book. Both accept various kinds of inputs, which are explained in further detail below.
+
+### Directives
+With directives, you can adjust the look and feel of your Jupyter Book.
+
+Directives are written like this:
+
+```
+```{mydirectivename}
+My directive content
+```
+
+Where `{mydirectivename}`would be the name of the directive. However, this directive does not yet exist. While you can integrate directives, there are many directives already implemented in Jupyter Book. 
+For instance, if you want to add a note, you can use:
+
+```
+```{note}
+Here is a note
+```
+Which results in:
+```{note}
+Here is a note
+```
+
+#### Roles
+ Roles are very similar in usage. However, they are somewhat simpler and are limited to one line.
+
+ For example:
+ ```
+ Some content {rolename}`and here is my role's content!`
+ ```
+ 
+Where `{rolename}`would be the name of the role.
+
+For instance, if you want to reference another page of your book, you can use the `{doc}`role:
+```
+{doc}`../intro`
+``` 
+results in {doc}`../intro`  
+
+
+#### What Roles and Directives are available?
+
+There is more information on how to use Roles and Directives in [Media](./media.ipynb), feel free to check it out!
+
+For more information on what roles and directives you can use, check out:
+* The [Sphinx directives page](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html) 
+* The [reStructured Text directives page](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
+* For building [custom Special content blocks](https://jupyterbook.org/en/stable/content/content-blocks.html)
 
