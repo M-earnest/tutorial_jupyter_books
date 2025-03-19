@@ -106,7 +106,7 @@ Let's use `%%latex` to render a block of `latex`:
 `Notebooks` support a variety of fantastic `plotting options`, including `static` and `interactive` graphics. This `magic` configures `matplotlib` to `render` its `figures` `inline`:
 
 ```python
-    %matplotlib inline
+%matplotlib inline
 ```
 
 ```python
