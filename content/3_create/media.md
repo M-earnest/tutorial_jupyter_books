@@ -129,7 +129,4 @@ ___
 There are plenty of other datatypes you can add! This section is only a short introduction to the embedding of media.
 
 ## Next section:
-
-[Structuring content](./tutorialcontent/structure)
-
-How do we structure our course website?
+In the next section, you will learn how to include citations and bibliography into your markdown files.
