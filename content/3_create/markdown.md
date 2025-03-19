@@ -212,7 +212,7 @@ For instance, if you want to reference another page of your book, you can use th
 ```
 {doc}`../1_github/intro`
 ``` 
-results in {doc}`../1_github/intro`  
+results in {doc}`../1_github/intro`.
 
 
 #### What Roles and Directives Are Available?
@@ -237,7 +237,9 @@ Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/).
 #### Linking Another Page In Your Course
 If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
 
-Example: `Check the [previous chapter](../2_host/intro)
+When using relative paths, ../ is a special notation that tells the system to move up one level in the folder structure.
+
+Example: `Check the [previous chapter](../2_host/intro)`
 
 Result: Check the [previous chapter](../2_host/intro)
 
