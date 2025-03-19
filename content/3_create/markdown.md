@@ -230,16 +230,16 @@ When adding links, you have several options. Here are the most common methods:
 #### External Links
 To link to an external website, use the following format: `[text](https://example.com)`
 
-Example: `[formatting with markdown](https://www.markdownguide.org/basic-syntax/)`
+Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/)`
 
-Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/).
+Result: [Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/).
 
 #### URL in New Tab
-If you want the link to be opened in a new tab automatically, your can use the following format: [text]([http://url](https://example.com)){target="_blank"}
+If you want the link to be opened in a new tab automatically, your can use the following HTML based format: <a href="https://example.com" target="_blank">text</a>
 
-Example: `[formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`
+Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`
 
-Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}.
+Result: <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Learn formatting with markdown</a>.
 
 #### Linking Another Page In Your Course
 If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
