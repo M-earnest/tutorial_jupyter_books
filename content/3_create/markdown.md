@@ -17,10 +17,7 @@ Luckily, Jupyter Book has plenty of different options to format text, including 
 
 On this page, we will review some basic Markdown formatting bits. For a more detailed view, check out [markdownguide.com](https://www.markdownguide.org/basic-syntax/) as one of many resources.
 
-
-## Formatting Text
-
-Let's start with the fundamentals:
+Let's start with the fundamentals.
 
 ### Headings
 
