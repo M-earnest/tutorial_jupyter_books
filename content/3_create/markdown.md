@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Styling: The Look and Feel
 
 To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. 
@@ -105,16 +117,16 @@ Let's use `%%latex` to render a block of `latex`:
 
 `Notebooks` support a variety of fantastic `plotting options`, including `static` and `interactive` graphics. This `magic` configures `matplotlib` to `render` its `figures` `inline`:
 
-```python
+```{code-cell} ipython3
 %matplotlib inline
 ```
 
-```python
+```{code-cell} ipython3
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-```python
+```{code-cell} ipython3
 x = np.linspace(0, 2*np.pi, 300)
 y = np.sin(x**2)
 plt.plot(x, y)
@@ -123,7 +135,7 @@ fig = plt.gcf()  # let's keep the figure object around for later...
 ```
 
 
-```python
+```{code-cell} ipython3
 import plotly.figure_factory as ff
 
 # Add histogram data
