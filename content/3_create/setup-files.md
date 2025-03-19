@@ -66,7 +66,7 @@ To add your course content, simply provide the path to your newly created or ada
 
 In practice, the provided structure for our template looks like the following. 
 
-Where our ["toc.yml"](https://github.com/DiLER-Digitell/course-template/lecture/_toc.yml) looks like this:
+Where our ["toc.yml"](https://github.com/DiLER-Digitell/Course-template/blob/main/lecture/_toc.yml) looks like this:
 
 ![Image of the YAML-file with the transcript of records of the course template](../../static/template_toc.png)
 
