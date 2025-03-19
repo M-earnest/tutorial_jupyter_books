@@ -105,7 +105,7 @@ And it's formatted like this:
 > Complex is better than complicated.
 
 
-### Embedded code
+### Embedded Code
 
 You can embed code meant for illustration instead of execution in Python by adding `` around statements:
 
@@ -125,7 +125,7 @@ Which results in:
 <code>def f(x): return x**2</code>
 
 
-### Writing latex 
+### Writing Latex 
 
 Let's use `%%` to render a block of `latex`:
 |Syntax   | Output|
@@ -133,7 +133,7 @@ Let's use `%%` to render a block of `latex`:
 |`$$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$`| $$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$|
 
 
-### Plotting in the notebook
+### Plotting in the Notebook
 
 `Notebooks` support a variety of fantastic `plotting options`, including `static` and `interactive` graphics. This `magic` configures `matplotlib` to `render` its `figures` `inline`:
 
@@ -177,7 +177,7 @@ fig.show()
 ### Special Content Blocks - Directives and Roles
 Directives and Roles are somewhat similiar to functions for markup language and allow for specific customizations of the look and feel of your book. Both accept various kinds of inputs, which are explained in further detail below.
 
-### Directives
+#### Directives
 With directives, you can adjust the look and feel of your Jupyter Book.
 
 Directives are written like this:
