@@ -1,4 +1,4 @@
-# Structuring Content using the Table of Contents
+# Structuring Content Using the Table of Contents
 
 In order to build your book, Jupyter Book needs to know how you want to structure the content that you have created, that is: 
 
@@ -57,7 +57,7 @@ parts:
 
 
 ```{note}
-The chapter names displayed on your website are defined by the top-level heading of the respective file. For instance, for this page, the top-level header looks like this: `# Structuring Content using the Table of Contents` 
+The chapter names displayed on your website are defined by the top-level heading of the respective file. For instance, for this page, the top-level header looks like this: `# Structuring Content Using the Table of Contents` 
 ```
 
 #### Adapting the toc.yml/Table of Contents
