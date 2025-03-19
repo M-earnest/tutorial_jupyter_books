@@ -25,12 +25,11 @@ Let's start with the fundamentals:
 ### Headings
 
 You can add headings using Markdown's syntax by adding `#` before your heading. You can vary the heading level by increasing the amount of Hash signs:
-
-|Syntax   | Output|
-|---|---|
-|`# Heading 1`| # Heading 1|
-|`## Heading 1.1` | ## Heading 1.1|
-|`### Heading 1.1.1` | ## Heading 1.1.1|
+```
+# Heading 1
+## Heading 1.1
+### Heading 1.1.1
+```
 
 ### Italic
 To make a text _italic_ add `_` or `*` before and after the word: 
