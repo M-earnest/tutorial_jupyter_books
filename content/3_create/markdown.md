@@ -18,7 +18,7 @@ Luckily, Jupyter Book has plenty of different options to format text, including 
 On this page, we will review some basic Markdown formatting bits. For a more detailed view, check out [markdownguide.com](https://www.markdownguide.org/basic-syntax/) as one of many resources.
 
 
-### Formatting Text
+## Formatting Text
 
 Let's start with the fundamentals:
 
@@ -26,26 +26,20 @@ Let's start with the fundamentals:
 
 You can add headings using Markdown's syntax by adding `#` before your heading. You can vary the heading level by increasing the amount of Hash signs:
 
-<pre>
-# Heading 1
+|Syntax   | Output|
+|---|---|
+|`# Heading 1`| # Heading 1|
+|`## Heading 1.1` | ## Heading 1.1|
+|`### Heading 1.1.1` | ## Heading 1.1.1|
 
-# Heading 2
-
-## Heading 2.1
-
-## Heading 2.2
-</pre>
-
-#### Italic
+### Italic
 To make a text _italic_ add `_` or `*` before and after the word: 
 |Syntax   | Output|
 |---|---|
 |`_italic_`| _italic_ |
 |`*italic*` | *italic*|
 
-To make a text *bold* add "*" before and after the word: `*bold*`= *bold*
-
-#### Bold
+### Bold
 To make a text **bold** add `__` or `**` before and after the word: 
 
 |Syntax   | Output|
@@ -53,23 +47,35 @@ To make a text **bold** add `__` or `**` before and after the word:
 |`__bold__`| __bold__ |
 |`**bold**` | **bold**|
 
-
-___
 ### (Nested) Lists
-You can build nested itemized or enumerated lists using either `*` or `-` before a word
+You can build nested itemized or enumerated lists using either `*` or `-` before a word:
 
+```
 * One
     - Sublist
         - This
-  - Sublist
+    - Sublist
         - That
         - The other thing
-* Two
-  - Sublist
-* Three
-  - Sublist
+```
+Which results in:
+* One
+    - Sublist
+        - This
+    - Sublist
+        - That
+        - The other thing
+    
 
 You also create numbered lists by using `1.` etc. before your point:
+```
+1. Here we go
+    1. Sublist
+    2. Sublist
+2. There we go
+3. Now this
+```
+Which results in:
 
 1. Here we go
     1. Sublist
@@ -86,7 +92,13 @@ You can add horizontal rules using three underscores `___` resulting in:
 To create a blockquote, it is as simple as putting a `>` before a text.
 
 Here is a blockquote:
-
+```
+> Beautiful is better than ugly.
+> Explicit is better than implicit.
+> Simple is better than complex.
+> Complex is better than complicated.
+```
+And it's formatted like this: 
 > Beautiful is better than ugly.
 > Explicit is better than implicit.
 > Simple is better than complex.
@@ -95,19 +107,27 @@ Here is a blockquote:
 
 ### Embedded code
 
-You can embed code meant for illustration instead of execution in Python by adding `` before statements:
+You can embed code meant for illustration instead of execution in Python by adding `` around statements:
 
+```
 `def f(x):`
-
 ` return x**2`
-Since you need to add this line by line, this might ruin your code formatting. Instead, consider using the HTML formatting, adding `<code>` before and `</code>` after your code:
+```
+Which results in: 
+`def f(x):`
+` return x**2`
 
+Since you need to add this line by line, this might ruin your code formatting. Instead, consider using the HTML formatting, adding `<code>` before and `</code>` after your code:
+```
+<code>def f(x): return x**2</code>
+```
+Which results in: 
 <code>def f(x): return x**2</code>
 
 
 ### Writing latex 
 
-Let's use `%%latex` to render a block of `latex`:
+Let's use `%%` to render a block of `latex`:
 |Syntax   | Output|
 |---|---|
 |`$$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$`| $$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$|
@@ -117,16 +137,16 @@ Let's use `%%latex` to render a block of `latex`:
 
 `Notebooks` support a variety of fantastic `plotting options`, including `static` and `interactive` graphics. This `magic` configures `matplotlib` to `render` its `figures` `inline`:
 
-```{code-cell} ipython3
+```{code-cell} python
 %matplotlib inline
 ```
 
-```{code-cell} ipython3
+```{code-cell} python
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-```{code-cell} ipython3
+```{code-cell} python
 x = np.linspace(0, 2*np.pi, 300)
 y = np.sin(x**2)
 plt.plot(x, y)
@@ -135,7 +155,7 @@ fig = plt.gcf()  # let's keep the figure object around for later...
 ```
 
 
-```{code-cell} ipython3
+```{code-cell} python
 import plotly.figure_factory as ff
 
 # Add histogram data
