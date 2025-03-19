@@ -235,7 +235,7 @@ Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-s
 Result: [Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/).
 
 #### URL in New Tab
-If you want the link to be opened in a new tab automatically, your can use the following HTML based format: <a href="https://example.com" target="_blank">text</a>
+If you want the link to be opened in a new tab automatically, your can use the following HTML based format: `<a href="https://example.com" target="_blank">text</a>`
 
 Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`
 
