@@ -212,7 +212,7 @@ For instance, if you want to reference another page of your book, you can use th
 ```
 {doc}`../1_github/intro`
 ``` 
-results in {doc}`../1_github/intro`.
+Result: {doc}`../1_github/intro`.
 
 
 #### What Roles and Directives Are Available?
@@ -234,16 +234,23 @@ Example: `[formatting with markdown](https://www.markdownguide.org/basic-syntax/
 
 Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/).
 
+#### URL in New Tab
+If you want the link to be opened in a new tab automatically, your can use the following format: [text]([http://url](https://example.com)){target="_blank"}
+
+Example: `[formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`
+
+Result: [formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}.
+
 #### Linking Another Page In Your Course
 If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
 
 When using relative paths, ../ is a special notation that tells the system to move up one level in the folder structure.
 
-Example: `Check the [previous chapter](../2_host/intro)`
+Example: `Check the [previous chapter](../2_host/host_website)`
 
-Result: Check the [previous chapter](../2_host/intro)
+Result: Check the [previous chapter](../2_host/host_website)
 
-This method gives you full flexibility in how you phrase the link text. Alternatively, you can use the {doc} role, as explained earlier.
+This method gives you full flexibility in how you phrase the link text. Alternatively, you can use the {doc} role, as explained above.
 
 #### Direct URL
 You can also display a URL as a clickable link without custom text by using angle brackets < >: `<URL>`
@@ -251,7 +258,6 @@ You can also display a URL as a clickable link without custom text by using angl
 Example: `<https://www.markdownguide.org/basic-syntax/>`
 
 Result: <https://www.markdownguide.org/basic-syntax/>
-
 
 ## Next Section:
 
