@@ -6,14 +6,13 @@
 
 This chapter aims to include the following goals.
 
-1. Learn which types of files you can integrate into your Jupyter Book course.
+1. Learn which types of files you can integrate into your Jupyter Book.
 2. Learn how to create new files.
 3. Learn how to format your text with Markdown.
 4. Learn how to embedd images, videos, and slides.
 5. Learn how to include feedback questions.
-6. Learn how to set up an online repository (your course).
 
-## Different File Types for Various Purposes
+## Different File Types 
 
 In this tutorial, we will focus on using Markdown (.md) files, as Markdown is a powerful and easy-to-learn formatting language. It is ideal for primarily text-based content, as well as for embedding multimedia such as images and videos. If you want to include code and visualizations for scientific computing, we recommend using Jupyter Notebook (.ipynb) files.
 
@@ -30,6 +29,22 @@ Here’s an overview of both file types:
 
 **.ipynb files are best for interactive, code-driven projects.**
 ````
+
+::::{grid}
+:gutter: 2
+
+:::{grid-item-card} .md (Markdown)
+ `.md` files are Markdown files, which are primarily used for creating simple, easy-to-read documents. They use a simple syntax for formatting text and are often used for documentation, READMEs, and other types of text-based content. They are also commonly used in conjunction with version control systems like Git and can be easily rendered on various platforms.
+
+ **.md files are best for documentation, READMEs, and other types of text-based content.**:::
+
+:::{grid-item-card} .ipynb (Jupyter notebooks)
+`.ipynb` files are Jupyter Notebook files and are primarily used for interactive data science and scientific computing. They allow for the combination of code, text, and visualizations all in one place, making it easy to document and share code-driven projects. They are often used by data scientists and researchers to share their work with others and can be easily converted to other formats like .html or .pdf for sharing.
+
+**.ipynb files are best for interactive, code-driven projects.**:::
+
+::::
+
 
 
 ## Create a New File
