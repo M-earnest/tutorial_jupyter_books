@@ -151,7 +151,6 @@ y = np.sin(x**2)
 plt.plot(x, y)
 plt.title("A little chirp")
 fig = plt.gcf()  # let's keep the figure object around for later...
-plt.show()
 ```
 
 
