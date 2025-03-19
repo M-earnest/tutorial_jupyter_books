@@ -7,7 +7,7 @@ parts:
 - caption: Getting Started
   chapters:
   - file: intro/overview
-- caption: Creating interactive content with Jupyter Books
+- caption: Creating Interactive Content With Jupyter Books
   chapters:
   - file: intro/whyjb
   - file: content/1_github/intro
@@ -24,7 +24,7 @@ parts:
     - file: content/3_create/citations
     - file: content/3_create/interactive
     - file: content/3_create/setup-files
-- caption: Additional material
+- caption: Additional Material
   chapters:
   - file: content/4_additional/quick_tutorial
   - file: content/4_additional/git/intro
