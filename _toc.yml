@@ -19,7 +19,6 @@ parts:
     - file: content/2_host/troubleshooting
   - file: content/3_create/intro
     sections:
-    - file: content/3_create/files
     - file: content/3_create/markdown
     - file: content/3_create/media
     - file: content/3_create/interactive
