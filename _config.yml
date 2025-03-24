@@ -68,9 +68,8 @@ sphinx:
   - sphinx.ext.intersphinx
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
-  config:
-    extensions:
-      - sphinxcontrib.bibtex
+  - sphinxcontrib.bibtex
+  config:    
     bibtex_reference_style: author_year
     mathjax_config:
       TeX:
