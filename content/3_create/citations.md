@@ -20,7 +20,8 @@ Now, you can include your citations into your text. Here is an example:
 {cite}`munafo2017manifesto`
 ```
 
-{cite}`munafo2017manifesto
+Result:
+{cite}`munafo2017manifesto`
 
 ## Edit the _config File
 
