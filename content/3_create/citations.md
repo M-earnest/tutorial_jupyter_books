@@ -26,7 +26,7 @@ Now, you can include your citations into your text. Here is an example:
 ```
 
 Result:
-{cite}`munafo2017manifesto`
+:cite:`munafo2017manifesto`
 
 ## Add a Bibliography 
 
