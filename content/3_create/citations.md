@@ -22,17 +22,17 @@ This will ensure that author and year are displayed correctly.
 Now, you can include your citations into your text. Here is an example:
 
 ```
-{footcite}`munafo2017manifesto`
+{cite}`munafo2017manifesto`
 ```
 
 Result:
-{footcite}`munafo2017manifesto`
+{cite}`munafo2017manifesto`
 
 ## Add a Bibliography 
 
 To add a bibliography, you need to use the `{footbibliography}` directive at the end of your page: 
 ````
-```{footbibliography}
+```{bibliography}
 ```
 ````
 At the end of this page, you will see an example bibliography.
@@ -43,6 +43,6 @@ In the next section, you will learn how to integrate feedback questions.
 
 ----
 **References**
-```{footbibliography} 
+```{bibliography} 
 ```
 
