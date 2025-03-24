@@ -2,7 +2,7 @@
 In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. 
 
 ## Images
-In Jupyter Books, there are few different ways to include images. Here, we will highlight the way that is most optimal for hosting your website with our provided build script, located in .github/workflows.
+In Jupyter Books, there are few different ways to include images. Here, we will highlight the way that is most optimal for hosting your website with our provided `build` script, located in the '.github/workflows' directory of our course template.
 
 ### Using Markdown
 The easiest way is to add the images to the static folder of your project. Once you upload the project to your GitHub you essentially are hosting the images through their services.
