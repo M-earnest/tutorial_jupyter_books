@@ -1,6 +1,6 @@
 # Adding Citations and Bibliographies
 
-If you want to include citations into your course website, you first need to create a bibtext file, in which the information of your citations are stored in. 
+If you want to include citations in your course website, you first need to create a BibTeX file to store the citation information. Then, you must edit the _config.yml file to ensure that the citations are displayed according to your preferences. 
 
 ## Create a Bibliography
 
@@ -13,6 +13,11 @@ Then, add your references to the file:
 ![Image of the newly created bibtex file with one example reference.](../../static/bib-file.png)
 
 
+## Edit the Config File
+There are several inline style options available for your citations (see [here](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html#referencing-style) for more details). We recommend adjusting the reference style in your `_config.yml` file as shown below:
+![Image of the newly created bibtex file with one example reference.](../../static/config_bibtex.png)
+This will ensure that author and year are displayed correctly.
+
 ## Add a Citation
 Now, you can include your citations into your text. Here is an example:
 
@@ -23,15 +28,6 @@ Now, you can include your citations into your text. Here is an example:
 Result:
 {cite}`munafo2017manifesto`
 
-## Edit the _config File
-
-
-
-
-
-https://jupyterbook.org/en/stable/tutorials/references.html#tutorials-references
-
-https://jupyterbook.org/en/stable/content/citations.html
 
 ## Next Section:
 In the next section, you will learn how to integrate feedback questions.
