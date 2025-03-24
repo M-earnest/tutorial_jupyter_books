@@ -61,6 +61,7 @@ html:
 # Adding Sphinx Extensions
 sphinx:
   extra_extensions:
+  - sphinxcontrib.bibtex
   - sphinx_inline_tabs
   - myst_nb
   - sphinx_togglebutton
@@ -68,7 +69,6 @@ sphinx:
   - sphinx.ext.intersphinx
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
-  - sphinxcontrib.bibtex
   config:    
     mathjax_config:
       TeX:
