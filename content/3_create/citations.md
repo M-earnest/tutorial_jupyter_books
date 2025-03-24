@@ -15,7 +15,9 @@ Then, add your references to the file:
 
 ## Edit the Config File
 There are several inline style options available for your citations (see [here](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html#referencing-style) for more details). We recommend adjusting the reference style in your `_config.yml` file by adding "bibtex_reference_style: author_year" right under "sphinx: config:". Please ensure the correct indentation.
+
 ![Image of the config.yml file, in which the reference style is included as described.](../../static/config_bibtex.png)
+
 This will ensure that author and year are displayed correctly.
 
 ## Add a Citation
