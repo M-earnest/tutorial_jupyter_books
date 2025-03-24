@@ -32,8 +32,10 @@ Result:
 
 To add a bibliography, you need to use the `{bibliography}` directive:
 ```
+
 ```{bibliography}
 ```
+
 ```
 
 
