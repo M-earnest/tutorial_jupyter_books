@@ -69,6 +69,9 @@ sphinx:
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
   config:
+    extensions:
+      - sphinxcontrib.bibtex
+    bibtex_reference_style: author_year
     mathjax_config:
       TeX:
         Macros:
@@ -101,7 +104,6 @@ sphinx:
       sphinx-panels:
         - https://sphinx-panels.readthedocs.io/en/sphinx-book-theme/
         - null
-    bibtex_reference_style: author_year
    
 
 
