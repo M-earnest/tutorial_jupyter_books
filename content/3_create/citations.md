@@ -1,4 +1,28 @@
-# Include Citations and Bibliographies
+# Including Citations and Bibliographies
+
+If you want to include citations into your course website, you first need to create a bibtext file, in which the information of your citations are stored in. 
+
+## Create a Bibliography
+
+Add a new file to your repository and use the `.bib` suffix to create a bibtex file.
+![Image of how to name the bibtex file](../../static/bib-file-name)
+
+Then, add your references to the file: 
+![Image of the newly created bibtex file with one example reference.](../../static/bib-file)
+
+
+## Add a Citation
+Now, you can include your citations into your text. Here is an example:
+
+`{cite}`munafo2017manifesto``
+
+{cite}`munafo2017manifesto`
+
+## Edit the _config File
+
+
+
+
 
 https://jupyterbook.org/en/stable/tutorials/references.html#tutorials-references
 
