@@ -1,4 +1,4 @@
-# Recap 
+# Wrapping Up: Key Takeaways and Next Steps 
 
 Congratulations! You’ve reached the end of our course, **Creating interactive content with Jupyter Books**.
 
