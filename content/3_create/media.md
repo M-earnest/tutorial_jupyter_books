@@ -14,6 +14,7 @@ To add images in your markdown file that are uploaded in you static folder, you 
 Example: `![Image of the DiLER project logo](../../static/logo.png)`
 
 Result: 
+
 ![Image of the DiLER project logo](../../static/logo.png)
 
 Alternatively, you can include the image link as follows:
@@ -28,7 +29,8 @@ If you want more control about the size, orientation and more, you will have to 
 
 `<img src="https://DiLER-Digitell.github.io/tutorial_jupyter_books/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">`
 
-which results in: <img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">
+which results in: 
+<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">
 
 --- 
 
