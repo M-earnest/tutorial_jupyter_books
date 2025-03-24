@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Formatting with Markdown
+# Formatting With Markdown
 
 To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. 
 Luckily, Jupyter Book has plenty of different options to format text, including media and much more.
