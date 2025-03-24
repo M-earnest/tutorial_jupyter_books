@@ -26,17 +26,11 @@ Now, you can include your citations into your text. Here is an example:
 ```
 
 Result:
-:cite:`munafo2017manifesto`
+{cite}`munafo2017manifesto`
 
 ## Add a Bibliography 
 
 To add a bibliography, you need to use the `{bibliography}` directive:
-```
-
-```{bibliography}
-```
-
-```
 
 ```{bibliography}
 ```
