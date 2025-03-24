@@ -19,14 +19,8 @@ The DiLER project aims to create a framework for providing, bundling, and introd
 
 Our project places a strong emphasis on promoting sustainability and transferability to other content and application areas, supported by integrated feedback options for students and teachers, and incorporating necessary hardware and software infrastructure. The project also primarily follows the FAIR principles (Findability, Accessibility, Interoperability, and Reuse of digital assets) in order to maximize the benefits and accessibility of provided materials.
 
-## Mission Statement: Digital Literacy
-
-With the surge of progressively more available and interconnected data, *Digital Literacy* has become a skill integral in teaching, science, and everyday life. Digital Literacy is a term describing competencies of using modern information technology, managing information, thinking critically, and selecting and applicating these reasonably. These skills are not only relevant due to the increasing levels of complexity of science, limited access to resources, and transparencies of digital infrastructures, but also necessary for independent empirical research.
-
-Traditional educational models are often insufficient in conveying the intricacies of digital literacy. Therefore, this project aims to empower course instructors to take advantage of interactive, flexible, and open-source resources to enhance their teachings.
-
-Digital Literacy is not just about being tech-savy but encompasses a broader set of competencies that include the ability to identify and evaluate information sources, to communicate and collaborate effectively, to manage digital footprints, and to protect privacy and data security. These competencies are essential for students to thrive in the digital age and to become active and responsible digital citizens.
-
-The project seeks to provide instructors with the necessary resources to incorporate digital literacy skills into their curriculum, enabling them to teach their students how to navigate the digital landscape safely, effectively, and ethically. By doing so, students will be better equipped to succeed in today's digital world and will be prepared for the challenges and opportunities that the future holds.
+As traditional educational models are often insufficient in conveying the intricacies of digital literacy, this project aims to empower course instructors to take advantage of interactive, flexible, and open-source resources to enhance their teachings.
 
 
+## Next Section:
+When you click on the next section {doc}`overview`, you will find more details on the objectives and the structure of this course.
