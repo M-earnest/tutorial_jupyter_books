@@ -30,12 +30,18 @@ Result:
 
 ## Add a Bibliography 
 
-To add a bibliography, you need to use the `{bibliography}` directive at the end of the page: ` ```{bibliography}``` `
-
+To add a bibliography, you need to use the `{bibliography}` directive at the end of your page: 
+````
+```{bibliography}
+```
+````
+At the end of this page, you will see an example bibliography.
 
 
 ## Next Section:
 In the next section, you will learn how to integrate feedback questions.
 
-```{bibliography}
+
+```{bibliography} References
 ```
+
