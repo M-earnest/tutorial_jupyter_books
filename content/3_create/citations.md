@@ -1,6 +1,6 @@
 # Adding Citations and Bibliographies
 
-If you want to include citations in your course website, you first need to create a BibTeX file to store the citation information. Then, you must edit the _config.yml file to ensure that the citations are displayed according to your preferences. 
+If you want to include citations in your course website, you first need to create a BibTeX file to store the citation information. Then, you must edit the `_config.yml` file to ensure that the citations are displayed according to your preferences. 
 
 ## Create a Bibliography
 
@@ -41,7 +41,8 @@ At the end of this page, you will see an example bibliography.
 ## Next Section:
 In the next section, you will learn how to integrate feedback questions.
 
-
+----
+**References**
 ```{bibliography} 
 ```
 
