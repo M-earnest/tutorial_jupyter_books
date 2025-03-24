@@ -27,7 +27,7 @@ If you want more control about the size, orientation and more, you will have to 
 
 `<img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">` or
 
-`<img src="https://DiLER-Digitell.github.io/tutorial_jupyter_books/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">`
+`<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">`
 
 which results in: 
 <img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">
