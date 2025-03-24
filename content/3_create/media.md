@@ -1,4 +1,4 @@
-# Including Media
+# Integrating Media Into Your Content
 In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. 
 
 ## Images
