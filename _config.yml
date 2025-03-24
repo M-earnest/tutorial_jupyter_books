@@ -69,6 +69,7 @@ sphinx:
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
   config:
+    bibtex_reference_style: author_year
     mathjax_config:
       TeX:
         Macros:
