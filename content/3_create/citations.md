@@ -1,4 +1,4 @@
-# Including Citations and Bibliographies
+# Adding Citations and Bibliographies
 
 If you want to include citations into your course website, you first need to create a bibtext file, in which the information of your citations are stored in. 
 
