@@ -42,6 +42,6 @@ At the end of this page, you will see an example bibliography.
 In the next section, you will learn how to integrate feedback questions.
 
 
-```{bibliography} References
+```{bibliography} 
 ```
 
