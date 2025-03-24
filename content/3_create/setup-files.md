@@ -1,4 +1,4 @@
-# Structuring Content Using the Table of Contents
+# Organizing Content With the Table of Contents
 
 In order to build your book, Jupyter Book needs to know how you want to structure the content that you have created, that is: 
 
