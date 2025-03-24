@@ -6,10 +6,10 @@ root: general-information/index
 parts:
 - caption: Getting Started
   chapters:
-  - file: intro/overview
+  - file: general-information/overview
 - caption: Creating Interactive Content With Jupyter Books
   chapters:
-  - file: intro/whyjb
+  - file: general-information/whyjb
   - file: content/1_github/intro
     sections:
     - file: content/1_github/account
@@ -24,6 +24,7 @@ parts:
     - file: content/3_create/citations
     - file: content/3_create/interactive
     - file: content/3_create/setup-files
+  - file: general-information/wrap-up
 - caption: Additional Material
   chapters:
   - file: content/4_additional/quick_tutorial
