@@ -32,8 +32,10 @@ Result:
 
 To add a bibliography, you need to use the `{bibliography}` directive:
 
+An example bibliography:
 ```{bibliography}
 ```
+
 
 ## Next Section:
 In the next section, you will learn how to integrate feedback questions.
