@@ -13,7 +13,8 @@ To add images in your markdown file that are uploaded in you static folder, you 
 
 Example: `![Image of the DiLER project logo](../../static/logo.png)`
 
-Result: ![Image of the DiLER project logo](../../static/logo.png)
+Result: 
+![Image of the DiLER project logo](../../static/logo.png)
 
 Alternatively, you can include the image link as follows:
 `![alternative_imagetext](https://YOURGITHUBNAME.github.io/PROJECTNAME/static/FILENAME.png)`
