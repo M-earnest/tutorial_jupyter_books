@@ -43,6 +43,6 @@ In the next section, you will learn how to integrate feedback questions.
 
 ----
 **References**
-```{bibliography} 
+```{footbibliography} 
 ```
 
