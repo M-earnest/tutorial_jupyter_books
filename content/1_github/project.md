@@ -9,7 +9,9 @@ Now, let's put that new account to use by creating an online repository — ofte
 
 2. Click on the `+` sign in the top right corner and click "New repository"
 
-3. Fill out the repository details: Give your repository a name, description, and check the box next to "public" to make sure others can find your directory. 
+![Image of the GitHub header highlighting the plus sign icon, indicating where to click to create a new repository.](../../static/new-repository.png)
+
+4. Fill out the repository details: Give your repository a name, description, and check the box next to "public" to make sure others can find your directory. 
 
 This could look something like this:
 
@@ -42,7 +44,7 @@ You'll be asked to create a new fork; simply add a new repository name, provide 
 
 Now you created your own course repository!
 
-### 2. Getting Familiar with the Structure and the Existing Files
+### 2. Getting Familiar With the Structure and the Existing Files
 
 **The course template is structured in the following way**
 
