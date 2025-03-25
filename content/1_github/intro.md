@@ -9,6 +9,8 @@ This chapter aims to include the following goals. Do check back here later and s
 1. Understand the benefits of using GitHub
 2. Learn how to set up your GitHub account
 3. Learn how to set up an online repository (your course)
+4. Explore the structure of the course template
+5. Learn how to edit existing files
 
 ## What's a 'GitHub,' and Why Should We Use It?
 
