@@ -256,6 +256,11 @@ Example: `<https://www.markdownguide.org/basic-syntax/>`
 
 Result: <https://www.markdownguide.org/basic-syntax/>
 
+---
+
+Both .ipynb and .md files in Jupyter Book support MyST, a markup language inspired by RMarkdown. MyST offers advanced formatting options and allows you to include interactive elements, such as widgets and code snippets, within your content. For more detailed information, refer to [the MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#syntax-core).
+
+
 ## Next Section:
 
 In the next section, you will learn how to embed images, videos, and slides.
