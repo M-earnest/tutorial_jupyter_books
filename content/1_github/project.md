@@ -1,6 +1,6 @@
 # Setting Up a Repository on GitHub
 
-In this section, you'll first learn how to start a new project on GitHub, followed by a step-by-step guide on how to use the free course template for your own course. By using our course template instead of starting a completely new project, you can take advantage of the existing structure and only need to customize and add individual pages to fit your content.
+In this section, you'll first learn how to start a new project on GitHub, followed by short guide on how to use the free course template for your own course. By using our course template instead of starting a completely new project, you can take advantage of the existing structure and only need to customize and add individual pages to fit your content. 
 
 ## Create a New Repository
 Now, let's put that new account to use by creating an online repository — often called a "remote repo"! 
@@ -28,13 +28,9 @@ This could look something like this:
 Congratulations! You are now the proud owner of a GitHub repository. 
 
 
-## Working With the Course Template
+## Forking the Course Template
 
-To work with our materials, you need to "fork" (i.e., copy) the course template repository to your account:
-
-### 1. Fork the Course Template
-
-Head over to the [course template repo](https://github.com/DiLER-Digitell/Course-template), and on the upper right-hand side, click "Fork". 
+To work with our materials, you need to "fork" (i.e., copy) the course template repository to your account. Therefore, head over to the [course template repo](https://github.com/DiLER-Digitell/Course-template), and on the upper right-hand side, click "Fork". 
 
 ![depicting position a look of the fork button on a GitHub repository](../../static/fork_button.png)
 
@@ -44,105 +40,7 @@ You'll be asked to create a new fork; simply add a new repository name, provide 
 
 Now you created your own course repository!
 
-### 2. Getting Familiar With the Structure and the Existing Files
-
-**The course template is structured in the following way**
-
-![depicting the contents of the course template repository on GitHub](../../static/repo.png)
-
-Where:
-
-- **.github/workflows folder**: Contains the prewritten scripts to automatically create your website every time new content is added.
-
-- **lecture**: Contains all our content files and directories, as well as the "toc.yml" (transcript of records) and the "config.yml" files, which define the structure and functionality of the website.
-
-- **README**: A short explanation of your website/course.
-
-- **LICENSE**: Self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.
-
-- **requirements.txt**: Contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here.
-
-Now, most the things that you'll be adapting are contained in the content folder "lecture", which looks like this:
-
-![depicting the contents of the course template repository on GitHub](../../static/lecture_folder.png)
-
-Where:
-
-- **content**: Contains files making up the main content of a course website.
-
-- **general information**: Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included \"index.md" file will be the landing point of the course website.
-
-- **introduction**: Contains files making up the introductory sessions of a course.
-
-- **static**: Contains all the pictures and graphs contained in a course. 
-
-- **config.yml**: Contains the course title, authors, and copyright notice at the footer of the website, which you should change before hosting your website. Further, it contains the specifics for the technical implementations of a course, e.g., whether Jupyter notebooks should be re-run every time the course website is created by the GitHub workflow or, e.g., whether a course incorporated interactive elements.
-
-- **toc.yml**: Contains information on the structure of the course website. For an in-depth explanation, jump to the [respective section](../content/setup-files).
-
-<br>
-
-### 3. Make Your First Adjustments
-
-To get started, let's take a look into the "_config.yml" file and exchange the information with your course title, author's names and affiliation, and so on.
-
-To edit a file, click on the specific file (e.g., _config.yml). 
-
-![Image of the file structure.](../../static/click_on_file.png)
-
-Then, click the edit button, represented by a small pencil in the upper right corner. 
-
-![Image of the edit button on the upper right corner.](../../static/edit_file.png)
-
-Once you're done editing, click on "Commit changes...". 
-
-![Image of the commit changes button.](../../static/commit_changes.png)
-
-For transparency and version control, provide a brief message describing the changes you made.
-
-![Image of the pop-up window in which one can write the commit message](../../static/commit_message.png)
-
-As soon as you click on "Commit changes", your changes will be saved.
-
-It is further essential that you adapt the README and LICENSE files to your needs:
-
-#### The README
-
-To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the "README.md" file on your public repo. In the template, this looks like this:
-
-![depicting the README](../../static/readme.png)
-
-and translates to this view at the bottom of your public remote repo:
-
-![depicting the rendered README](../../static/readme_rendered.png)
-
-So simply add the name and explanation of your course, your credentials, and, e.g., how others may get in contact with you to the README.md. Please keep the credit included to our original G0RELLA template lectures.
-
-#### The LICENSE
-
-You may further change the contained LICENSE file to your liking as long as you respect the stated stipulations.
-
-![depicting the LICENSE of the course template](../../static/license.png)
-
-```
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
-
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
-```
 
 
-Before going into detail on how to add and modify this template to your needs, you will learn how to host your course website. 
-
-#### Next Chapter:
-In the next chapter, you will discover how to publish and maintain your own course website.
-
+#### Next Section:
+In the next section, you will explore the course template's structure and learn how to make your first customizations.
