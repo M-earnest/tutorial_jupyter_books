@@ -38,15 +38,13 @@ which both result in:
 
 **The code above is made up of multiple html keywords, that each control a separate parameter of the image you want to control:**
 
-`<img>` is an HTML tag used to display an image on a web page.
-
-`src="../../static/logo.png"` is an attribute that specifies the URL or path to the image file you want to display. 
-
-`alt="Image of the DiLER project logo"` is an attribute that provides alternative text for the image. This text is used by screen readers for visually impaired users, and it is also displayed when the image cannot be loaded for some reason.
-
-`class="bg-primary mb-1"` is an attribute that defines the CSS class or classes to apply to the image. In this case, the class bg-primary sets the background color of the image to a primary color, and mb-1 adds a margin-bottom of 1 unit to the image.
-
-`width="200px"` is an attribute that sets the width of the image to 200 pixels. This can be adjusted to suit your needs.
+|  | |
+| ----- | -----|
+|`<img>` | an HTML tag used to display an image on a web page. |
+|`src="../../static/logo.png"` | an attribute that specifies the URL or path to the image file you want to display. |
+|`alt="Image of the DiLER project logo"` | an attribute that provides alternative text for the image. This text is used by screen readers for visually impaired users, and it is also displayed when the image cannot be loaded for some reason. |
+|`class="bg-primary mb-1"` | an attribute that defines the CSS class or classes to apply to the image. In this case, the class bg-primary sets the background color of the image to a primary color, and mb-1 adds a margin-bottom of 1 unit to the image. |
+|`width="200px"` | an attribute that sets the width of the image to 200 pixels. This can be adjusted to suit your needs. |
 
 Simply copy-paste the above line of code and adjust it to your need as necessary to embed every kind of image into your notebooks.
 
