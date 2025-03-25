@@ -19,7 +19,7 @@ This chapter aims to include the following goals.
 In this tutorial, we will focus on using Markdown (.md) files, as Markdown is a powerful and easy-to-learn formatting language. It is ideal for primarily text-based content, as well as for embedding multimedia such as images and videos. If you want to include code and visualizations for scientific computing, we recommend using Jupyter Notebook (.ipynb) files.
 
 Here’s an overview of both file types:
-
+```{toggle}
 ::::{grid}
 :gutter: 2
 
@@ -35,7 +35,7 @@ Here’s an overview of both file types:
 **.ipynb files are best for interactive, code-driven projects.**
 :::
 ::::
-
+```
 
 
 ## Create a New File
