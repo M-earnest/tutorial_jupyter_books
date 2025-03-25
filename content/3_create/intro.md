@@ -23,14 +23,12 @@ Here’s an overview of both file types:
 :gutter: 2
 
 :::{grid-item-card} .md (Markdown)
-:class: dropdown
  `.md` files are Markdown files, which are primarily used for creating simple, easy-to-read documents. They use a simple syntax for formatting text and are often used for documentation, READMEs, and other types of text-based content. They are also commonly used in conjunction with version control systems like Git and can be easily rendered on various platforms.
 
  **.md files are best for documentation, READMEs, and other types of text-based content.**
  :::
 
 :::{grid-item-card} .ipynb (Jupyter notebooks)
-:class: dropdown
 `.ipynb` files are Jupyter Notebook files and are primarily used for interactive data science and scientific computing. They allow for the combination of code, text, and visualizations all in one place, making it easy to document and share code-driven projects. They are often used by data scientists and researchers to share their work with others and can be easily converted to other formats like .html or .pdf for sharing.
 
 **.ipynb files are best for interactive, code-driven projects.**
