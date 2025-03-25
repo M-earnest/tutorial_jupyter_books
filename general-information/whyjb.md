@@ -1,6 +1,5 @@
 # Why Jupyter Books? An Introduction
 
-## The Limitations of Traditional Education and Proprietary Software
 In today’s rapidly advancing world, technology has become an integral part of our daily lives, transforming how we learn, work, and communicate. However, traditional education methods and proprietary software often **limit innovation and collaboration**. Proprietary software, controlled by corporations, restricts users' freedom and hampers progress. Similarly, traditional education can be rigid and fail to engage students.
 
 In contrast, open software offers greater **flexibility, freedom, and the ability to collaborate**, making it an ideal solution to meet the evolving needs of education and beyond.
