@@ -25,12 +25,14 @@ As you are able to use essentially any image link, you can add images that are h
 ### Using HTML
 If you want more control about the size, orientation and more, you will have to rely on HTML tags. E.g. the following line of code will present the same image as above only downscaled to a width of 200 pixels.
 
-`<img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">` or
+`<img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">` 
 
-`<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">`
+or
 
-which results in: 
-<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary" width="200px">
+`<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">`
+
+which both result in: 
+<img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">
 
 --- 
 
