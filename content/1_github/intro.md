@@ -14,17 +14,15 @@ This chapter aims to include the following goals. Do check back here later and s
 
 ## What's GitHub and Why Should We Use It?
 
-As already mentioned, GitHub is a web-based platform for storing, organizing, and managing projects.
-
-Content is mainly organized in repositories (or "repos"); these repos can be viewed as being equivalent to a normal directory that you have on your local machine, for, e.g., storing data and pictures. They may contain a variety of file types and nested directories and will be used as a place to store and organize your project files, including code, assets, and documentation.
+As already mentioned, GitHub is a web-based platform for storing, organizing, and managing projects. It uses repositories (or "repos"), which are similar to folders on your computer, where you can store a variety of file types and nested directories. Repositories are where you’ll organize your project files, including code, assets, and documentation.
 
 Here is an example of the repository for the course template you'll be working with:
 
 ![png depicting the file structure of the course template repository](../../static/template_structure.png)
 
-GitHub is based on "Git", a version control system used in nearly every large software project. A GitHub server may be set up on a local machine or network if the access to the hosted software or data should be restricted, but we'll be using the public GitHub server, i.e., the [web-based version of GitHub](https://github.com). In essence, this allows us to openly share and for other people to make copies or download our projects, e.g., for collaborative development or issue tracking. It further allows for feedback on our courses or the reporting of possible errors people may have encountered.
+GitHub is based on "Git", a version control system used in nearly every large software project. While GitHub can be hosted on a local machine or network (e.g., if the access to the hosted software or data should be restricted), we'll use the public GitHub server, i.e., the [web-based version of GitHub](https://github.com). In essence, this allows us to openly share and for other people to make copies or download our projects, e.g., for collaborative development or issue tracking. It further allows for feedback on our courses or the reporting of possible errors people may have encountered.
 
-GitHub helps prevent the common problem of losing important work or creating disorganized files. Instead of manually managing multiple versions (e.g., project_working_copy_1.txt), Git tracks every change made to a file.
+GitHub helps prevent the common problem of losing important work or creating disorganized files. Instead of manually managing multiple versions (e.g., project_working_copy_1.txt), Git tracks every change made to a file. 
 - **Version Control**: Git records all changes, allowing you to revert to previous versions if needed.
 - **Collaboration**: Multiple users can work on the same project, submit changes, and review them before integrating them into the main project.
 
