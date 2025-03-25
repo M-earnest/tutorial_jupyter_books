@@ -84,9 +84,9 @@ Where:
 
 ### 3. Make Your First Adjustments
 
-To get started, let's take a look into the "index.md" and the "config.yml" file and exchange the information with your course title, author's names and affiliation, and so on.
+To get started, let's take a look into the "_config.yml" file and exchange the information with your course title, author's names and affiliation, and so on.
 
-To edit a file, click on the specific file (e.g., config.yml). 
+To edit a file, click on the specific file (e.g., _config.yml). 
 
 ![Image of the file structure.](../../static/click_on_file.png)
 
