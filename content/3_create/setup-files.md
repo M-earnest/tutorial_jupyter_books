@@ -62,7 +62,7 @@ The chapter names displayed on your website are defined by the top-level heading
 
 #### Adapting the toc.yml/Table of Contents
 
-To add your course content, simply provide the path to your newly created or adapted file, including the respective filename to this document. For this, you can simply copy-paste the existing lines of the provided "toc.yml" and exchange the example filenames with your own filenames. It is further easiest if you simply adapt the `index.md` file provided with our template as the `"root"`, i.e. the landing page of a website.
+To add your course content, simply provide the path to your newly created or adapted file, including the respective filename to this document. For this, you can simply copy-paste the existing lines of the provided "toc.yml" and exchange the example filenames with your own filenames. It is further easiest if you simply adapt the `index.md` file provided with our template as the `root`, i.e. the landing page of a website.
 
 In practice, the provided structure for our template looks like the following. 
 
