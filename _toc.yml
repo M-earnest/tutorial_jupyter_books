@@ -14,6 +14,8 @@ parts:
     sections:
     - file: content/1_github/account
     - file: content/1_github/project
+    - file: content/1_github/template
+
   - file: content/2_host/host_website
     sections:
     - file: content/2_host/troubleshooting
