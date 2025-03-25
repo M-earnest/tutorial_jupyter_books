@@ -82,7 +82,7 @@ The contact information of the instructors is as follows:
 | [Jannika Hollmann](https://github.com/JannikaHollmann) (She/Her) | `j.hollmann@em.uni-frankfurt.de` |
 
 ```{admonition} How do we address one another?
-:class: note
+:class: hint
 When contacting us, please refrain from using honoraries and formal language, our first name or "you" is fine as long as the content is respectful, fair, and constructive (we aim for the same when we reply).
 However, please let us know if you have a preferred way of interacting with other folks, including how you would like to be addressed, your pronouns, and the level of formality.
 ```
