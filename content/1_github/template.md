@@ -9,34 +9,27 @@ Now that you've forked the course template, let's go through how it’s structur
 ![depicting the contents of the course template repository on GitHub](../../static/repo.png)
 
 Where:
-
-- **.github/workflows folder**: Contains the prewritten scripts to automatically create your website every time new content is added.
-
-- **lecture**: Contains all our content files and directories, as well as the "toc.yml" (transcript of records) and the "config.yml" files, which define the structure and functionality of the website.
-
-- **README**: A short explanation of your website/course.
-
-- **LICENSE**: Self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.
-
-- **requirements.txt**: Contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here.
+|  |  | 
+| ----- | -----|
+| **.github/workflows folder** | Contains the prewritten scripts to automatically create your website every time new content is added. |
+| **lecture** | Contains all our content files and directories, as well as the "toc.yml" (transcript of records) and the "config.yml" files, which define the structure and functionality of the website. |
+| **README** | A short explanation of your website/course.|
+| **LICENSE** | Self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.|
+| **requirements.txt** | Contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here. |
 
 Now, most the things that you'll be adapting are contained in the content folder "lecture", which looks like this:
 
 ![depicting the contents of the course template repository on GitHub](../../static/lecture_folder.png)
 
 Where:
-
-- **content**: Contains files making up the main content of a course website.
-
-- **general information**: Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included "index\.md" file will be the landing point of the course website.
-
-- **introduction**: Contains files making up the introductory sessions of a course.
-
-- **static**: Contains all the pictures and graphs contained in a course. 
-
-- **config.yml**: Contains the course title, authors, and copyright notice at the footer of the website, which you should change before hosting your website. Further, it contains the specifics for the technical implementations of a course, e.g., whether Jupyter notebooks should be re-run every time the course website is created by the GitHub workflow or, e.g., whether a course incorporated interactive elements.
-
-- **toc.yml**: Contains information on the structure of the course website. For an in-depth explanation, jump to the [respective section](../content/setup-files).
+|  |  | 
+| ----- | -----|
+| **content** | Contains files making up the main content of a course website.
+| **general information** | Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included "index\.md" file will be the landing point of the course website.|
+| **introduction** | Contains files making up the introductory sessions of a course.|
+| **static** | Contains all the pictures and graphs contained in a course. |
+| **config.yml** | Contains the course title, authors, and copyright notice at the footer of the website, which you should change before hosting your website. Further, it contains the specifics for the technical implementations of a course, e.g., whether Jupyter notebooks should be re-run every time the course website is created by the GitHub workflow or, e.g., whether a course incorporated interactive elements.|
+| **toc.yml** | Contains information on the structure of the course website. For an in-depth explanation, jump to the [respective section](../3_create/setup-files).|
 
 <br>
 
