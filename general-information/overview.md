@@ -45,21 +45,18 @@ Check out courses already created and maintained by the DiLER project.
 
 You can also find the sections in the Table of Content on the left side. 
 
-
-## How Do I Get All the Software Needed?
-
+```{dropdown} How Do I Get All the Software Needed?
 Everything we'll use is [open-source software](https://en.wikipedia.org/wiki/Open-source_software) or, at minimum, free of charge and publicly available. Why? Because teaching via [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) is just not fair and doesn't align with our values (see our [open science statement](https://diler-digitell.github.io/tutorial_jupyter_books/resources/open_science.html)). We don't want people to have to obtain licenses or be dependent on university resources or pay for software/hosting, etc., out of their own pocket. Additionally, open-source software can do everything, if not more than proprietary software and is furthermore usually better supported, tested, and documented, creating a fantastic sense of community. 
 
 To complete this course and host your own course website, all you need is a GitHub account. How to set it up is explained in the [respective section](../content/1_github/account). If you want to edit your course content locally, you will also need to install Git and a text editor that supports Markdown and Jupyter Notebook files. More information on this can be found in the [additional section on Git](../content/4_additional/git/intro).
+```
 
-
-## Where is Everything?
-
+```{dropdown} Where Do I Find Everything?
 All course materials will be available on this very course website. Everything will be completely open and free to use, thus constituting an [open educational resource](https://en.wikipedia.org/wiki/Open_educational_resources). You are **free to explore, enhance, and share**. Thus, this website and all materials will also remain up ideally to the end of the internet but will possibly be subject to changes and updates. If you feel the need to save this resource as it is at the moment you're reading this, you can download the complete course from our GitHub repository [here](https://github.com/DiLER-Digitell/tutorial_jupyter_books). The usage of this resource and the materials therein will be explained at the beginning and throughout the course.
 
 We will also be providing a [course template](https://github.com/diler-digitell/course-template) that will serve as a tool for our practical examples. The template contains a folder structure, some example content files, a license, an open science statement, an equity, diversity, and inclusion statement, as well as a code of conduct for your course.
 This template is supposed to be used as a starting point to generate your own course. Simply add your content or adapt the preexisting resources, adapt the structure to your liking, and upload the whole thing into an online GitHub repository, and your course website will be created automatically.
-
+```
 
 ## How to Reach the Content Creators
 
