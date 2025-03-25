@@ -9,11 +9,11 @@ Now that you've forked the course template, let's go through how it’s structur
 ![depicting the contents of the course template repository on GitHub](../../static/repo.png)
 
 Where:
-|  |  | 
-| ----- | -----|
-| **.github/workflows folder** | Contains the prewritten scripts to automatically create your website every time new content is added. |
+| File/Folder | Description | 
+| :----- | :-----|
+| **.github/workflows** | Contains the prewritten scripts to automatically create your website every time new content is added. |
 | **lecture** | Contains all our content files and directories, as well as the "toc.yml" (transcript of records) and the "config.yml" files, which define the structure and functionality of the website. |
-| **README** | A short explanation of your website/course.|
+| **README.md** | A short explanation of your website/course.|
 | **LICENSE** | Self-explanatory, stating who and how people are allowed to use or reproduce the content of this repo.|
 | **requirements.txt** | Contains the necessary requirements for the automatic scripts building the website to run; there is no need to change anything here. |
 
@@ -22,8 +22,8 @@ Now, most the things that you'll be adapting are contained in the content folder
 ![depicting the contents of the course template repository on GitHub](../../static/lecture_folder.png)
 
 Where:
-|  |  | 
-| ----- | -----|
+| File/Folder | Description | 
+| :----- | :-----|
 | **content** | Contains files making up the main content of a course website.
 | **general information** | Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included "index\.md" file will be the landing point of the course website.|
 | **introduction** | Contains files making up the introductory sessions of a course.|
