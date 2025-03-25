@@ -28,7 +28,7 @@ Where:
 
 - **content**: Contains files making up the main content of a course website.
 
-- **general information**: Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included \"index.md" file will be the landing point of the course website.
+- **general information**: Contains files providing information, such as the necessary setup, the outline of the course, a code of conduct, etc. The included "index\.md" file will be the landing point of the course website.
 
 - **introduction**: Contains files making up the introductory sessions of a course.
 
@@ -66,7 +66,7 @@ It is further essential that you adapt the README and LICENSE files to your need
 
 #### The README
 
-To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the "README.md" file on your public repo. In the template, this looks like this:
+To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the "README\.md" file on your public repo. In the template, this looks like this:
 
 ![depicting the README](../../static/readme.png)
 
@@ -74,7 +74,7 @@ and translates to this view at the bottom of your public remote repo:
 
 ![depicting the rendered README](../../static/readme_rendered.png)
 
-So simply add the name and explanation of your course, your credentials, and, e.g., how others may get in contact with you to the README.md. Please keep the credit included to our original G0RELLA template lectures.
+So simply add the name and explanation of your course, your credentials, and, e.g., how others may get in contact with you to the README\.md. Please keep the credit included to our original G0RELLA template lectures.
 
 #### The LICENSE
 
