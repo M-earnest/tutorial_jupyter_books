@@ -5,6 +5,7 @@ First things first, let us set up a GitHub account.
 **1. Go to the GitHub website**: Open a web browser and navigate to the [github.com](https://github.com/).
 
 **2. Click on the "Sign up" button**: The button is located in the upper-right corner.
+![Image of the GitHub website's upper header with an arrow pointing to the "Sign up" button.](../../static/github_sign-up.png)
 
 **3. Fill out the registration form**: Fill out the required information and choose a username. Choose your username carefully, as your username will be included in the link to the website we're going to build and will be publicly displayed! Also, it is a good idea to associate your account with your university email address (if you have one) as this will entitle you to sign up for the [GitHub Student Developer Pack](https://education.github.com/pack), which comes with some nice free bonuses.
 
