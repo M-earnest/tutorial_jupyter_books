@@ -1,6 +1,6 @@
 # Creating Engaging Content 
 
-**Jupyter Book** allows for the integration of various markup languages and formats, including Markdown files, Jupyter notebooks, MyST Markdown notebooks, reStructured Text, and more. In this chapter, you will learn how to create content that is engaging to the user.
+To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. Luckily, Jupyter Book has plenty of different options to format text, including media and much more. In this chapter, you will learn how to create content that is engaging to the user.
 
 ## Goals
 
@@ -15,8 +15,7 @@ This chapter aims to include the following goals.
 7. Learn how to set up your table of content.
 
 ## Different File Types 
-
-In this tutorial, we will focus on using Markdown (.md) files, as Markdown is a powerful and easy-to-learn formatting language. It is ideal for primarily text-based content, as well as for embedding multimedia such as images and videos. If you want to include code and visualizations for scientific computing, we recommend using Jupyter Notebook (.ipynb) files.
+Jupyter Book supports a variety of markup languages and formats, including Markdown files, Jupyter Notebooks, MyST Markdown notebooks, reStructuredText, and more. In this tutorial, however, we will focus on using Markdown (.md) files, a simple yet powerful markup language. Markdown is ideal for text-based content and allows easy embedding of multimedia such as images and videos. If your project involves code and visualizations for scientific computing, we recommend using Jupyter Notebook (.ipynb) files.
 
 Here’s an overview of both file types:
 ````{tab-set}
@@ -48,9 +47,5 @@ Now, you can add your content to the file.
 
 ## Next Section:
 
-In both .ipybn and .md files, Jupyter Book is able to parse MyST, a markup language that draws inspiration from RMarkdown. It allows for more advanced formatting options and the ability to include interactive elements, such as widgets and code snippets, within your content. 
-
-In the next section, we present only a short overview of the features of MyST. However, there is much more documentation on [the MyST website.](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#syntax-core)
-
-
+In the next section, we present a short overview on how to format your content with Markdown.
 
