@@ -26,7 +26,7 @@ While this might seem overwhelming at first, it is actually really simple. Below
 |---|---|
 |`format`|Format defines how the ToC will be interpreted. For our purposes, `jb-book` is the appropriate option.|
 |`root`|Root defines the landing (aka first) page of your book.|
-|`chapters`|Contains a list of files. No argument is needed here|
+|`chapters`|Contains a list of files. No argument is needed here.|
 |`file`|Path to the files that you want to include in your book. All the paths are relative to the root.|
 |`sections`|Defines sections of a chapter.|
 
@@ -57,7 +57,7 @@ parts:
 
 
 ```{note}
-The chapter names displayed on your website are defined by the top-level heading of the respective file. For instance, for this page, the top-level header looks like this: `# Structuring Content Using the Table of Contents` 
+The chapter names displayed on your website are defined by the top-level heading of the respective file. For instance, for this page, the top-level header looks like this: `# Organizing Content With the Table of Contents` 
 ```
 
 #### Adapting the toc.yml/Table of Contents
