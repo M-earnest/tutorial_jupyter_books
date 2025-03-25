@@ -38,7 +38,7 @@ which both result in:
 
 **The code above is made up of multiple html keywords, that each control a separate parameter of the image you want to control:**
 
-|  |  | 
+| Keyword | Description | 
 | ----- | -----|
 |`<img>` | an HTML tag used to display an image on a web page. |
 |`src="../../static/logo.png"` | an attribute that specifies the URL or path to the image file you want to display. |
