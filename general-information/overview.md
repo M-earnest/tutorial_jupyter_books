@@ -47,12 +47,13 @@ You can also find the sections in the Table of Content on the left side.
 
 ----
 
-```{admonition} How do I get all the software needed?
-:class: note
+:::{note} How do I get all the software needed?
+:class: dropdown
 Everything we'll use is [open-source software](https://en.wikipedia.org/wiki/Open-source_software) or, at minimum, free of charge and publicly available. Why? Because teaching via [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) is just not fair and doesn't align with our values (see our [open science statement](https://diler-digitell.github.io/tutorial_jupyter_books/resources/open_science.html)). We don't want people to have to obtain licenses or be dependent on university resources or pay for software/hosting, etc., out of their own pocket. Additionally, open-source software can do everything, if not more than proprietary software and is furthermore usually better supported, tested, and documented, creating a fantastic sense of community. 
 
 To complete this course and host your own course website, all you need is a GitHub account. How to set it up is explained in the [respective section](../content/1_github/account). If you want to edit your course content locally, you will also need to install Git and a text editor that supports Markdown and Jupyter Notebook files. More information on this can be found in the [additional section on Git](../content/4_additional/git/intro).
-```
+:::
+
 
 ```{admonition} Where do I find everything?
 :class: note
