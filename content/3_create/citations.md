@@ -4,11 +4,11 @@ If you want to include citations in your course website, you first need to creat
 
 ## Create a Bibliography
 
-Add a new file to your repository and use the `.bib` suffix to create a bibtex file.
+Create a new file in your repository and save it with the `.bib` extension to create a BibTeX file. 
 
 ![Image of how to name the bibtex file](../../static/bib-file-name.jpg)
 
-Then, add your references to the file: 
+Then, add your references to the file and click on "commit changes".
 
 ![Image of the newly created bibtex file with one example reference.](../../static/bib-file.png)
 
