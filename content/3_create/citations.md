@@ -32,7 +32,7 @@ Result:
 
 ## Add a Bibliography 
 
-To add a bibliography, you need to use the `{footbibliography}` directive at the end of your page: 
+To add a bibliography, you need to use the `{bibliography}` directive at the end of your page: 
 ````
 ```{bibliography}
 ```
