@@ -177,20 +177,20 @@ With directives, you can adjust the look and feel of your Jupyter Book.
 
 Directives are written like this:
 
-```
+````
 ```{mydirectivename}
 My directive content
 ```
-```
+````
 
 Where `{mydirectivename}`would be the name of the directive. However, this directive does not yet exist. While you can integrate directives, there are many directives already implemented in Jupyter Book. 
 For instance, if you want to add a note, you can use:
 
-```
+````
 ```{note}
 Here is a note
 ```
-```
+````
 
 Which results in:
 ```{note}
