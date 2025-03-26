@@ -170,21 +170,12 @@ fig.show()
 ```
 
 ### Special Content Blocks - Directives and Roles
-Directives and Roles are somewhat similiar to functions for markup language and allow for specific customizations of the look and feel of your book. Both accept various kinds of inputs, which are explained in further detail below.
+Directives and Roles are like functions in a markup language, allowing you to customize the look and feel of your Jupyter Book. Below are some common examples:
 
 #### Directives
-With directives, you can adjust the look and feel of your Jupyter Book.
+Directives let you add special content blocks, such as notes, tips, or warnings.
 
-Directives are written like this:
-
-````
-```{mydirectivename}
-My directive content
-```
-````
-
-Where `{mydirectivename}`would be the name of the directive. However, this directive does not yet exist. While you can integrate directives, there are many directives already implemented in Jupyter Book. 
-For instance, if you want to add a note, you can use:
+For example, if you want to add a note, use this format:
 
 ````
 ```{note}
@@ -192,35 +183,51 @@ Here is a note
 ```
 ````
 
-Which results in:
+This will display as:
+
 ```{note}
 Here is a note
+```
+
+To create a clickable dropdown you can use the {dropdown} directive:
+````
+```{dropdown} Title of my dropdown
+Here is the content of my dropdown
+```
+````
+
+This will display as:
+
+```{dropdown} Title of my dropdown
+Here is the content of my dropdown
+```
+
+If you want to use dropdown within another directives, use `:class: dropdown`:
+
+````
+```{note}
+:class: dropdown
+Here is a (hidden) note
+```
+````
+
+Result:
+
+```{note}
+:class: dropdown
+Here is a (hidden) note
 ```
 
 #### Roles
-Roles are very similar in usage. However, they are somewhat simpler and are limited to one line.
+Roles are very similar in usage. However, they are somewhat simpler and are used in-line.
 
-For example:
-```
-Some content {rolename}`and here is my role's content!`
-```
- 
-Where `{rolename}` would be the name of the role.
-
-For instance, if you want to reference another page of your book, you can use the `{doc}`role:
+For example, if you want to reference another page of your book, you can use the `{doc}`role:
 ```
 {doc}`../1_github/intro`
 ``` 
 Which results in: 
 
 {doc}`../1_github/intro`.
-
-#### What Roles and Directives Are Available?
-
-For more information on what roles and directives you can use, check out:
-* The [Sphinx directives page](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html) 
-* The [reStructured Text directives page](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
-* For building [custom Special content blocks](https://jupyterbook.org/en/stable/content/content-blocks.html)
 
 ### Include Links
 
