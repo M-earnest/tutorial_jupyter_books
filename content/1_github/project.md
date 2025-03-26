@@ -42,5 +42,5 @@ Now you created your own course repository!
 
 
 
-#### Next Section:
+## Next Section:
 In the next section, you will explore the course template's structure and learn how to make your first customizations.
