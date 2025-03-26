@@ -215,7 +215,7 @@ Result:
 
 ```{tip}
 :class: dropdown
-Here is a (hidden) note
+Here is a (hidden) tip
 ```
 
 #### Roles
