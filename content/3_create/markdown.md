@@ -12,16 +12,15 @@ kernelspec:
 
 # Formatting Content With Markdown
 
-To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. 
-Luckily, Jupyter Book has plenty of different options to format text, including media and much more.
+To effectively convey messages, a good design is essential. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. Luckily, Jupyter Book has plenty of different options to format text, including media and much more.
 
-On this page, we will review some basic Markdown formatting bits. For a more detailed view, check out [markdownguide.com](https://www.markdownguide.org/basic-syntax/) as one of many resources.
+In this section, we’ll cover key Markdown formatting basics along with some MyST formatting features. MyST is a markup language inspired by RMarkdown, supported by both .ipynb and .md files in Jupyter Book. It offers advanced formatting options and lets you integrate interactive elements, such as widgets, dropdowns, and code snippets, into your content. For more details, we encourage you to explore the [MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html). 
 
-Let's start with the fundamentals.
+Now, let's start with the fundamentals.
 
 ### Headings
 
-You can add headings using Markdown's syntax by adding `#` before your heading. You can vary the heading level by increasing the amount of Hash signs:
+You can add headings using Markdown's syntax by adding `#` before your heading. You can vary the heading level by increasing the amount of hash signs:
 ```
 # Heading 1
 ## Heading 1.1
@@ -110,6 +109,7 @@ You can embed code meant for illustration instead of execution in Python by addi
 ` return x**2`
 ```
 Which results in: 
+
 `def f(x):`
 ` return x**2`
 
@@ -118,12 +118,13 @@ Since you need to add this line by line, this might ruin your code formatting. I
 <code>def f(x): return x**2</code>
 ```
 Which results in: 
+
 <code>def f(x): return x**2</code>
 
 
 ### Writing Latex 
 
-Let's use `%%` to render a block of `latex`:
+Let's use `$$` to render a block of `latex`:
 |Syntax   | Output|
 |---|---|
 |`$$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$`| $$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$|
@@ -131,7 +132,7 @@ Let's use `%%` to render a block of `latex`:
 
 ### Plotting in the Notebook
 
-`Notebooks` support a variety of fantastic `plotting options`, including `static` and `interactive` graphics. This `magic` configures `matplotlib` to `render` its `figures` `inline`:
+Notebooks support a variety of fantastic plotting options, including static and interactive graphics. This magic configures `matplotlib` to render its figures inline:
 
 ```{code-cell} python
 %matplotlib inline
@@ -182,6 +183,7 @@ Directives are written like this:
 ```{mydirectivename}
 My directive content
 ```
+```
 
 Where `{mydirectivename}`would be the name of the directive. However, this directive does not yet exist. While you can integrate directives, there are many directives already implemented in Jupyter Book. 
 For instance, if you want to add a note, you can use:
@@ -190,18 +192,20 @@ For instance, if you want to add a note, you can use:
 ```{note}
 Here is a note
 ```
+```
+
 Which results in:
 ```{note}
 Here is a note
 ```
 
 #### Roles
- Roles are very similar in usage. However, they are somewhat simpler and are limited to one line.
+Roles are very similar in usage. However, they are somewhat simpler and are limited to one line.
 
- For example:
- ```
- Some content {rolename}`and here is my role's content!`
- ```
+For example:
+```
+Some content {rolename}`and here is my role's content!`
+```
  
 Where `{rolename}` would be the name of the role.
 
@@ -209,8 +213,9 @@ For instance, if you want to reference another page of your book, you can use th
 ```
 {doc}`../1_github/intro`
 ``` 
-Result: {doc}`../1_github/intro`.
+Which results in: 
 
+{doc}`../1_github/intro`.
 
 #### What Roles and Directives Are Available?
 
@@ -218,7 +223,6 @@ For more information on what roles and directives you can use, check out:
 * The [Sphinx directives page](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html) 
 * The [reStructured Text directives page](https://docutils.sourceforge.io/docs/ref/rst/directives.html)
 * For building [custom Special content blocks](https://jupyterbook.org/en/stable/content/content-blocks.html)
-
 
 ### Include Links
 
@@ -257,9 +261,6 @@ Example: `<https://www.markdownguide.org/basic-syntax/>`
 Result: <https://www.markdownguide.org/basic-syntax/>
 
 ---
-
-Both .ipynb and .md files in Jupyter Book support MyST, a markup language inspired by RMarkdown. MyST offers advanced formatting options and allows you to include interactive elements, such as widgets and code snippets, within your content. For more detailed information, refer to [the MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#syntax-core).
-
 
 ## Next Section:
 
