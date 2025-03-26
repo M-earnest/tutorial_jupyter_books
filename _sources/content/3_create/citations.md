@@ -32,12 +32,6 @@ Result:
 
 ## Add a Bibliography 
 
-To add a bibliography, you need to use the `{footbibliography}` directive at the end of your page: 
-````
-```{bibliography}
-```
-````
-At the end of this page, you will see an example bibliography.
 
 
 ## Next Section:
@@ -45,6 +39,7 @@ In the next section, you will learn how to integrate feedback questions.
 
 ----
 **References**
-```{footbibliography} 
+```{bibliography}
+:style: plain
 ```
 
