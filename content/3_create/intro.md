@@ -36,15 +36,16 @@ Here’s an overview of both file types:
 
 In the next section, you'll learn the basics of Markdown formatting. To get started, let’s create a new file!
 
-First, navigate to the folder where you'd like to add the new file. Then, click on "Add file" in the upper-right corner and select "Create new file."
+1. Navigate to the folder where you'd like to add the new file.
+2. Click on "Add file" in the upper-right corner and select "Create new file."
 
 ![Image of the "add file" button and the "create new file" option.](../../static/new_file.png)
 
-Next, give your file a name and specify the file type, such as "introduction\.md" to create a Markdown file.
+3. Give your file a name and specify the file type, such as "introduction\.md" to create a Markdown file.
 
 ![Image of the field where the file name is entered, with "introduction.md" written in it.](../../static/include_type.png)
 
-Now, you’re all set to add some content!
+Now you're ready to add your content and format it using Markdown!
 
 ## Next Section:
 
