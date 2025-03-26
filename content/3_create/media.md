@@ -32,8 +32,10 @@ or
 `<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">`
 
 which both result in: 
+
 <img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">
 
+<img src="https://felixkoerber.github.io/jb/_static/logo.png" alt="logo" class="bg-primary mb-1" width="200px"> 
 --- 
 
 **The code above is made up of multiple html keywords, that each control a separate parameter of the image you want to control:**
