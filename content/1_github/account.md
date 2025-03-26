@@ -19,7 +19,7 @@ First things first, let us set up a GitHub account.
 You can now use your new GitHub account to store your code online or collaborate and share your projects with the world!
 <br>
 
-#### Next Section: 
+## Next Section: 
 
 In the next section you will learn how to create your own project on GitHub.
 
