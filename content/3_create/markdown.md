@@ -266,6 +266,13 @@ You can also display a URL as a clickable link without custom text by using angl
 |Example|`<https://www.markdownguide.org/basic-syntax/>`|
 |Result|<https://www.markdownguide.org/basic-syntax/>|
 
+
+
+How about a quick exercise?
+
+
+
+
 ---
 
 ## Next Section:
