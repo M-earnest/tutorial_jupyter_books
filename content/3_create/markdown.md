@@ -207,7 +207,7 @@ If you want to use dropdown within another directives, use `:class: dropdown`:
 ````
 ```{tip}
 :class: dropdown
-Here is a (hidden) note
+Here is a (hidden) tip
 ```
 ````
 
