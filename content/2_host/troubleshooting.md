@@ -1,6 +1,6 @@
 # Troubleshooting
 
-If, for whatever reason, the "pages and deployment" workflow fails, it will be marked with a red x instead of a green
+If, for whatever reason, the "pages and deployment" workflow fails, it will be marked with a red `x` instead of a green
 checkmark.
 
 ![Image of a failed workflow with a red cross instead of a green checkmark.](../../static/failed_workflow.png)
