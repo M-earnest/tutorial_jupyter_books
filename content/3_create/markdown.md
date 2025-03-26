@@ -231,34 +231,40 @@ When adding links, you have several options. Here are the most common methods:
 #### External Links
 To link to an external website, use the following format: `[text](https://example.com)`
 
-Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/)`
-
-Result: [Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/).
+|||
+|---|---|
+|Example|`[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/)`|
+|Result|[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/)|
 
 #### URL in New Tab
 If you want the link to be opened in a new tab automatically, your can use the following HTML based format: `<a href="https://example.com" target="_blank">text</a>`
 
-Example: `[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`
-
-Result: <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Learn formatting with markdown</a>.
+|||
+|---|---|
+|Example|`[Learn formatting with markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`|
+|Result|<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Learn formatting with markdown</a>.|
 
 #### Linking Another Page In Your Course
 If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
 
+```{note}
 When using relative paths, ../ is a special notation that tells the system to move up one level in the folder structure.
+```
 
-Example: `Check the [previous chapter](../2_host/host_website)`
-
-Result: Check the [previous chapter](../2_host/host_website)
+|||
+|---|---|
+|Example|`Check the [previous chapter](../2_host/host_website)`|
+|Result|Check the [previous chapter](../2_host/host_website)|
 
 This method gives you full flexibility in how you phrase the link text. Alternatively, you can use the {doc} role, as explained above.
 
 #### Direct URL
 You can also display a URL as a clickable link without custom text by using angle brackets < >: `<URL>`
 
-Example: `<https://www.markdownguide.org/basic-syntax/>`
-
-Result: <https://www.markdownguide.org/basic-syntax/>
+|||
+|---|---|
+|Example|`<https://www.markdownguide.org/basic-syntax/>`|
+|Result|<https://www.markdownguide.org/basic-syntax/>|
 
 ---
 
