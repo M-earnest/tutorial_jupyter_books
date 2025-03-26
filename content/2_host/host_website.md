@@ -47,7 +47,7 @@ Once that process has been completed head back over to "Settings" -> "Pages". At
 
 ![Image of the final link that is presented under "GitHub Pages".](../../static/pages_link.png)
 
-Click on the link to view your freshly built content website! Now, simply copy that link and paste it into your repo’s `README.md`, so others can easily access your website. And... you're all set!
+Click on the link to view your freshly built content website! 
 
 ## Next Section:
 In the next section, you will learn how to identify failed workflows and how to troubleshoot common errors.
