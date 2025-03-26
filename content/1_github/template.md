@@ -94,6 +94,6 @@ modification, are permitted provided that the following conditions are met:
 
 Before going into detail on how to add and modify this template to your needs, you will learn how to host your course website. 
 
-#### Next Chapter:
+## Next Chapter:
 In the next chapter, you will discover how to publish and maintain your own course website.
 
