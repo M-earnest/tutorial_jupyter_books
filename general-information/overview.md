@@ -4,7 +4,7 @@ Now that you've got an idea of what this website is about let's discuss how we'l
 
 The course is divided into several modules, each covering a step in creating your course. The modules include an introduction in GitHub, how you host your course website and how you create and structure your content. You can simply start from the beginning and work your way down through all respective sections. If you're already familiar with the concepts of GitHub and the Jupyter Framework, you can also go to the [Quick Setup Guide](../content/4_additional/quick_tutorial) for a very quick tutorial to creating and hosting your own course.
 
-This tutorial is further paired with a template course that you can find [here](https://github.com/diler-digitell/course-template). We'll, in essence, teach you how to adapt this template to host your own online courses. An explanation of the template can be found in the chapter on [Hosting Your Course Website](../content/2_host/intro).
+This tutorial is further paired with a template course that you can find [here](https://github.com/diler-digitell/course-template). We'll, in essence, teach you how to adapt this template to host your own online courses. An explanation of the template can be found in the chapter on [Hosting Your Course Website](../content/2_host/host_website).
 
 
 ## Objectives 📍
