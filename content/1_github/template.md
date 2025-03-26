@@ -67,7 +67,9 @@ and translates to this view at the bottom of your public remote repo:
 
 ![depicting the rendered README](../../static/readme_rendered.png)
 
-Let's get started! Click on the `README.md`, then hit the edit button in the upper right corner. Add details about your course, including its title, a brief description, your credentials, and how others can reach out to you. Please keep the credit included to our original G0RELLA template lectures.
+Feel free to add some details about your course now! Click on the `README.md`, then hit the edit button in the upper right corner. You can include your course title, a brief description, your credentials, and contact information. Please keep the credit included to our original G0RELLA template lectures.
+
+We'll revisit the `README.md` file later in the section {doc}`../3_create/markdown`, where you'll learn how to format it using Markdown.
 
 #### The LICENSE
 
