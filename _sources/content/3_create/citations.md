@@ -33,13 +33,10 @@ Result:
 ## Add a Bibliography 
 
 
-
-## Next Section:
-In the next section, you will learn how to integrate feedback questions.
-
 ----
 **References**
+
 ```{bibliography}
-:style: plain
+:filter: docname in docnames
 ```
 
