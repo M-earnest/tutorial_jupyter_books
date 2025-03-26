@@ -5,3 +5,4 @@ sphinx-inline-tabs
 pandas
 plotly
 scipy
+docutils==0.17.1
