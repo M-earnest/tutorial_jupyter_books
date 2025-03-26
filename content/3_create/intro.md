@@ -47,6 +47,27 @@ In the next section, you'll learn the basics of Markdown formatting. To get star
 
 Now you're ready to add your content and format it using Markdown!
 
+
+## Add a Citation
+Now, you can include your citations into your text. Here is an example:
+
+```
+{cite}`munafo2017manifesto`
+```
+
+Result:
+{cite}`munafo2017manifesto`
+
+## Add a Bibliography 
+
+
+----
+**References**
+
+```{bibliography}
+:filter: docname in docnames
+```
+
 ## Next Section:
 
 In the next section, we’ll show you how to format your content using Markdown.
