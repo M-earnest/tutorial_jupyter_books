@@ -268,10 +268,13 @@ You can also display a URL as a clickable link without custom text by using angl
 
 
 
-How about a quick exercise?
+## Practice Time: Modify Your Course Info
 
+**How about a quick exercise to put your new skills to the test?**
 
+Head over to the `README.md` file, click on the edit button, and start replacing the placeholder text with your own information. Get creative with headings, bold/italic text, and lists to make it look great. Don't forget to include the link to your course website so others can easily access it! And be sure to keep the credit for the original G0RELLA template lectures.
 
+Let’s get started!
 
 ---
 
