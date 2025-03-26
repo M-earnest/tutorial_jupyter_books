@@ -12,8 +12,6 @@ kernelspec:
 
 # Formatting Content With Markdown
 
-To effectively convey messages, a good design is essential. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. Luckily, Jupyter Book has plenty of different options to format text, including media and much more.
-
 In this section, we’ll cover key Markdown formatting basics along with some MyST formatting features. MyST is a markup language inspired by RMarkdown, supported by both .ipynb and .md files in Jupyter Book. It offers advanced formatting options and lets you integrate interactive elements, such as widgets, dropdowns, and code snippets, into your content. For more details, we encourage you to explore the [MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html). 
 
 Now, let's start with the fundamentals.
