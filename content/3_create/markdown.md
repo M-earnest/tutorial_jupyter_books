@@ -213,7 +213,7 @@ Here is a (hidden) note
 
 Result:
 
-```{note}
+```{tip}
 :class: dropdown
 Here is a (hidden) note
 ```
