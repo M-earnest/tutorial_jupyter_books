@@ -1,6 +1,6 @@
 # Creating Engaging Content 
 
-To effectively convey messages, a good design is indispensable. Even if your content is amazing, if it is presented as just a wall of plain text, chances are that people will not pay a lot of attention to it. Luckily, Jupyter Book has plenty of different options to format text, including media and much more. In this chapter, you will learn how to create content that is engaging to the user.
+A good design is essential to effectively convey messages. Even with great content, a wall of plain text often fails to capture attention. Fortunately, Jupyter Book offers various formatting options, including media, to help make your content more engaging. In this chapter, you'll learn how to create captivating content for your users.
 
 ## Goals
 
@@ -32,10 +32,11 @@ Here’s an overview of both file types:
 ```
 ````
 
-
 ## Create a New File
 
-To create a new file, click on "Add file" on the upper-right corner, then select "Create new file".
+In the next section, you'll learn the basics of Markdown formatting. To get started, let’s create a new file!
+
+First, navigate to the folder where you'd like to add the new file. Then, click on "Add file" in the upper-right corner and select "Create new file."
 
 ![Image of the "add file" button and the "create new file" option.](../../static/new_file.png)
 
@@ -43,9 +44,8 @@ Next, give your file a name and specify the file type, such as "introduction\.md
 
 ![Image of the field where the file name is entered, with "introduction.md" written in it.](../../static/include_type.png)
 
-Now, you can add your content to the file.
+Now, you’re all set to add some content!
 
 ## Next Section:
 
-In the next section, we present a short overview on how to format your content with Markdown.
-
+In the next section, we’ll show you how to format your content using Markdown.
