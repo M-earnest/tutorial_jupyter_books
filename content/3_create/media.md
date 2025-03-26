@@ -49,7 +49,7 @@ which results in:
 
 Simply copy-paste the above line of code and adjust it to your need as necessary to embed every kind of image into your notebooks.
 
-**For a more in-depth exploration of the `img` tag checkout the [w3schools html tutorial](https://www.w3schools.com/html/html_images.asp)**
+**For a more in-depth exploration of the `img` tag checkout the [w3schools html tutorial](https://www.w3schools.com/html/html_images.asp).**
 
 
 ## Videos, Presentations, GIFs, and more: iframes
