@@ -22,7 +22,7 @@ Here is an example of the repository for the course template you'll be working w
 
 GitHub is based on "Git", a version control system used in nearly every large software project. While GitHub can be hosted on a local machine or network (e.g., if the access to the hosted software or data should be restricted), we'll use the public GitHub server, i.e., the [web-based version of GitHub](https://github.com). In essence, this allows us to openly share and for other people to make copies or download our projects, e.g., for collaborative development or issue tracking. It further allows for feedback on our courses or the reporting of possible errors people may have encountered.
 
-GitHub helps prevent the common problem of losing important work or creating disorganized files. Instead of manually managing multiple versions (e.g., project_working_copy_1.txt), Git tracks every change made to a file. 
+GitHub helps prevent the common problem of losing important work or creating disorganized files. Instead of manually managing multiple versions (e.g., project_working_copy_1.txt), Git tracks every change made to a file. Its two main advantages are:
 - **Version Control**: Git records all changes, allowing you to revert to previous versions if needed.
 - **Collaboration**: Multiple users can work on the same project, submit changes, and review them before integrating them into the main project.
 
