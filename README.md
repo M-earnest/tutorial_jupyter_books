@@ -1,6 +1,6 @@
 ![logo](static/logo.png)
 
-## "What's in this repository?"
+## What's in this repository?
 
 This repository contains a tutorial on how to create interactive content with Jupyter Books, developed as part of the DiLER project of the Goethe-University Frankfurt.
 
@@ -9,6 +9,6 @@ This repository contains a tutorial on how to create interactive content with Ju
 Find the course here: https://diler-digitell.github.io/tutorial_jupyter_books
 
 
-## "If you got questions:"
+## If you got questions:
 
 Open an issue on this repository and someone will try and get back to you as soon as possible!
