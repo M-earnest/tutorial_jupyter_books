@@ -37,7 +37,7 @@ Please take a closer look at the `.github/workflows` folder, where you'll find a
 
 ### Checking Your Workflow
 
-Next, click on "Actions" at the top of your repository. You should see a workflow named "pages and deployment" running. By clicking on this workflow, you'll be able to view a summary of the process. In the image below, the process is complete, as shown by the green checkmark:
+Next, click on "Actions" at the top of your repository. You should see a workflow named "pages build and deployment" running. By clicking on this workflow, you'll be able to view a summary of the process. In the image below, the process is complete, as shown by the green checkmark:
 
 ![Image of a completed workflow with a green checkmark.](../../static/action_deployment.png)
 
