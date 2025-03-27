@@ -25,7 +25,7 @@ Please ensure the correct indentation.
 ![Image of the config.yml file, in which the BibTeX file is included as described.](../../static/config_bibtex.png)
 
 ## Add a Citation
-Now, you can include your citations into your text. Here is an example:
+Now, you can include your citations into your text with help of the `{cite}` role. Here is an example:
 
 ```
 {cite}`munafo2017manifesto`
