@@ -104,7 +104,7 @@ You can embed code meant for illustration instead of execution in Python by addi
 
 ```
 `def f(x):`
-` return x**2`
+  `return x**2`
 ```
 Which results in: 
 
@@ -113,61 +113,25 @@ Which results in:
 
 Since you need to add this line by line, this might ruin your code formatting. Instead, consider using the HTML formatting, adding `<code>` before and `</code>` after your code:
 ```
-<code>def f(x): return x**2</code>
+<code>
+def f(x):
+  return x**2
+</code>
 ```
 Which results in: 
 
-<code>def f(x): return x**2</code>
-
+<code>
+def f(x):
+  return x**2
+</code>
 
 ### Writing Latex 
 
-Let's use `$$` to render a block of `latex`:
+Let's use `$` for in-line math and `$$` for math blocks.
+
 |Syntax   | Output|
 |---|---|
-|`$$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$`| $$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$$|
-
-
-### Plotting in the Notebook
-
-Notebooks support a variety of fantastic plotting options, including static and interactive graphics. This magic configures `matplotlib` to render its figures inline:
-
-```{code-cell} python
-%matplotlib inline
-```
-
-```{code-cell} python
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
-```{code-cell} python
-x = np.linspace(0, 2*np.pi, 300)
-y = np.sin(x**2)
-plt.plot(x, y)
-plt.title("A little chirp")
-fig = plt.gcf()  # let's keep the figure object around for later...
-```
-
-
-```{code-cell} python
-import plotly.figure_factory as ff
-
-# Add histogram data
-x1 = np.random.randn(200) - 2
-x2 = np.random.randn(200)
-x3 = np.random.randn(200) + 2
-x4 = np.random.randn(200) + 4
-
-# Group data together
-hist_data = [x1, x2, x3, x4]
-
-group_labels = ['Group 1', 'Group 2', 'Group 3', 'Group 4']
-
-# Create distplot with custom bin_size
-fig = ff.create_distplot(hist_data, group_labels, bin_size=.2)
-fig.show()
-```
+|`$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$`| $F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$|
 
 ### Special Content Blocks - Directives and Roles
 Directives and Roles are like functions in a markup language, allowing you to customize the look and feel of your Jupyter Book. Below are some common examples:
@@ -271,7 +235,45 @@ You can also display a URL as a clickable link without custom text by using angl
 |Example|`<https://www.markdownguide.org/basic-syntax/>`|
 |Result|<https://www.markdownguide.org/basic-syntax/>|
 
+### Plotting in the Notebook
 
+Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples: 
+
+```{code-cell} python
+%matplotlib inline
+```
+
+```{code-cell} python
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+```{code-cell} python
+x = np.linspace(0, 2*np.pi, 300)
+y = np.sin(x**2)
+plt.plot(x, y)
+plt.title("A little chirp")
+fig = plt.gcf()  # let's keep the figure object around for later...
+```
+
+```{code-cell} python
+import plotly.figure_factory as ff
+
+# Add histogram data
+x1 = np.random.randn(200) - 2
+x2 = np.random.randn(200)
+x3 = np.random.randn(200) + 2
+x4 = np.random.randn(200) + 4
+
+# Group data together
+hist_data = [x1, x2, x3, x4]
+
+group_labels = ['Group 1', 'Group 2', 'Group 3', 'Group 4']
+
+# Create distplot with custom bin_size
+fig = ff.create_distplot(hist_data, group_labels, bin_size=.2)
+fig.show()
+```
 
 ## Practice Time: Modify Your Course Info
 
