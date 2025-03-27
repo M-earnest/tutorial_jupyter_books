@@ -20,7 +20,7 @@ Alternatively, instead of forking, you can click on "Use this template", which a
 
 ```
 
-Great job! Your course repository is ready! If you'd like to explore the template's structure and make your first customizations, you can skip the following section on creating a repository from scratch.
+**Great job! Your course repository is ready!** If you'd like to explore the template's structure and make your first customizations, you can skip the following section on creating a repository from scratch.
 
 ## Create a New Repository
 To start a repository from scratch, follow these steps:
