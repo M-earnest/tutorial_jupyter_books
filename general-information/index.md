@@ -11,7 +11,7 @@ While this tutorial was created with the goal of an integrated framework for dig
 In this online course, we first want to emphasise the benefits of free and accessible online courses and why they should be of interest to lecturers/trainers. Then, you will learn how to create your own free online resources for higher education using our course template. 
 
 ## How Did We Get Here?
-We believe that education should be available to as many people as possible, which is why this website is created as an open and free resource; if you'd like to create a course following our framework, please consider doing the same. Especially important should be the inclusion (and possibly adaptation) of our diversity, equity, and inclusion statement, our open science statement, and the Code of Conduct to promote fair and inclusive access to education. 
+We believe that education should be available to as many people as possible, which is why this website is created as an open and free resource; if you'd like to create a course following our framework, please consider doing the same. Especially important should be the inclusion (and possibly adaptation) of our [diversity, equity, and inclusion statement](../resources/dei), our [open science statement](../resources/open_science), and the [Code of Conduct](../resources/CoC) to promote fair and inclusive access to education. 
 
 ## The Goal of Our Project
 

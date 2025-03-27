@@ -29,15 +29,23 @@ Please take a closer look at the `.github/workflows` folder, where you'll find a
 
 ![Image of the "Deploy from a branch" option under Source section, located under the Build and Deployment section](../../static/deploy.png)
 
-4. Under Branch: Select branch "master" and select the "/root" folder and save.
+4. Under Branch: Select branch "main" and select the "/root" folder and save.
 
 ![Image of the settings under Branch.](../../static/branch.png)
 
-5. Push a new commit to your repo, i.e. make a change to one file (e.g., add a line to your `README.md`).
+5. Click on "Action" and then "General" under "Code and automation".
+
+![Image of the menu on the left side.](../../static/actions-general.png)
+
+6. At the bottom of the page, under "Workflow permissions," select the option "Read and write permissions" and allow Github Actions to create and approve pull requests. Then, click on save.
+
+![Image of the workflow permissions.](../../static/workflow-permissions.png)
+
+7. Push a new commit to your repo, i.e. make a change to one file (e.g., add a line to your `README.md`).
 
 ### Checking Your Workflow
 
-Next, click on "Actions" at the top of your repository. You should see a workflow named "pages and deployment" running. By clicking on this workflow, you'll be able to view a summary of the process. In the image below, the process is complete, as shown by the green checkmark:
+Next, click on "Actions" at the top of your repository. You should see a workflow named "pages build and deployment" running. By clicking on this workflow, you'll be able to view a summary of the process. In the image below, the process is complete, as shown by the green checkmark:
 
 ![Image of a completed workflow with a green checkmark.](../../static/action_deployment.png)
 
@@ -48,6 +56,11 @@ Once that process has been completed head back over to "Settings" -> "Pages". At
 ![Image of the final link that is presented under "GitHub Pages".](../../static/pages_link.png)
 
 Click on the link to view your freshly built content website! 
+
+**Important:** There's one final setting you need to adjust: On the same page, where you found the link, select "gh-pages" (instead of "main") as the branch and save your changes.
+![Image of the settings under Branch.](../../static/gh-pages.png)
+
+That's it! Congratulations to your first course website! 
 
 ## Next Section:
 In the next section, you will learn how to identify failed workflows and how to troubleshoot common errors.

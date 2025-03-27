@@ -1,6 +1,6 @@
 # Adding Citations and Bibliographies
 
-To include citations in your course website, begin by creating a BibTeX file to store your references. Then, link it in the `_config.yml` file to ensure it's recognized. Once set up, you can easily add citations and generate a bibliography to enhance your course content.
+To include citations in your course website, begin by creating a BibTeX file to store your references. Then, check the `_config.yml` file to ensure that the file is linked correctly. Once set up, you can easily add citations and generate a bibliography to enhance your course content.
 
 ## Create a Bibliography
 
@@ -13,19 +13,18 @@ Then, add your references to the file and click on "Commit changes".
 ![Image of the newly created bibtex file with one example reference.](../../static/bib-file.png)
 
 
-## Edit the Config File
+## Check the Config File
 
-Open the `_config.yml` file and specify your BibTeX file as the source for citations by adding the following lines under the "sphinx: config:" 
-```
-bibtex_bibfiles:
-  - references.bib
-``` 
-Please ensure the correct indentation.
+Open the `_config.yml` file and ensure that the linked BibTeX file is correct. By default, its name is "references.bib". 
 
 ![Image of the config.yml file, in which the BibTeX file is included as described.](../../static/config_bibtex.png)
 
+```{note}
+If the file is located in a different folder, make sure to include the correct path.
+```
+
 ## Add a Citation
-Now, you can include your citations into your text. Here is an example:
+Now, you can include your citations into your text with help of the `{cite}` role. Here is an example:
 
 ```
 {cite}`munafo2017manifesto`

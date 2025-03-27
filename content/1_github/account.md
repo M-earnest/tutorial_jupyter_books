@@ -2,7 +2,7 @@
 
 First things first, let us set up a GitHub account. 
 
-**1. Go to the GitHub website**: Open a web browser and navigate to the [github.com](https://github.com/).
+**1. Go to the GitHub website**: Open a web browser and navigate to [github.com](https://github.com/).
 
 **2. Click on the "Sign up" button**: The button is located in the upper-right corner.
 ![Image of the GitHub website's upper header with an arrow pointing to the "Sign up" button.](../../static/github_sign-up.png)

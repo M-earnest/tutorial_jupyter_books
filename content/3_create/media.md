@@ -1,5 +1,5 @@
 # Integrating Media Into Your Content
-In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. 
+In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. Of course, it’s important to ensure that you have the proper licenses for any media you use.
 
 ## Images
 In Jupyter Books, there are few different ways to include images. Here, we will highlight the way that is most optimal for hosting your website with our provided `build` script, located in the '.github/workflows' directory of our course template.
@@ -62,7 +62,9 @@ As you already learned, Jupyter Book enables you to implement `html` into your b
 
 Inlineframes are structured and implemented like this:
 
-`<iframe src="http://www.example.com/" height="100" width="200" name="iframename">Alternative title</iframe>`
+```
+<iframe src="http://www.example.com/" height="100" width="200" name="iframename">Alternative title</iframe>
+```
 
 Thus, they essentially follow the same structure as the HTML-image integration.
 
@@ -82,7 +84,9 @@ Thus, `https://www.youtube.com/watch?v=c-bemNZ-IqA` would become `https://www.yo
 
 Added in iframes, it looks like this:
 
-```<iframe src="https://www.youtube.com/embed/c-bemNZ-IqA" style="border:0px #ffffff none;" name="Open Science Video" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>```
+```
+<iframe src="https://www.youtube.com/embed/c-bemNZ-IqA" style="border:0px #ffffff none;" name="Open Science Video" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+```
 
 Turning into:
 <iframe src="https://www.youtube.com/embed/c-bemNZ-IqA" style="border:0px #ffffff none;" name="Open Science Video" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
@@ -102,7 +106,9 @@ Here's how you embed Google Slides in Jupyter Book with the HTML iframe:
 
 * Copy the HTML-code, which could result in something like this:
 
-`<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJvUAN-dg7r7Dbj-KpxcNO6ssd7akDQjBbHzhTTBBU7zSBZ4sTfjYPtHZL6V7GmM0VQvo6Aviu5oSG/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>`
+```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJvUAN-dg7r7Dbj-KpxcNO6ssd7akDQjBbHzhTTBBU7zSBZ4sTfjYPtHZL6V7GmM0VQvo6Aviu5oSG/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJvUAN-dg7r7Dbj-KpxcNO6ssd7akDQjBbHzhTTBBU7zSBZ4sTfjYPtHZL6V7GmM0VQvo6Aviu5oSG/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
