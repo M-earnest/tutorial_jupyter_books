@@ -55,6 +55,10 @@ Let's kick things off by diving into the `_config.yml` file! Here, you'll update
 
 As soon as you click on "Commit changes", your changes will be saved.
 
+**Awesome! You’ve just added your first personal touch!**
+
+---
+
 It is further essential that you adapt the README and LICENSE files to your needs:
 
 #### The README
