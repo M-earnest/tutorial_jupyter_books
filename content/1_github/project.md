@@ -8,11 +8,17 @@ After that, you'll also learn how to start a brand-new project on GitHub. While 
 
 To create your own course repository, you'll need to "fork" (i.e., copy) the course template repository to your account. Simply go to the [course template repo](https://github.com/DiLER-Digitell/Course-template), ensure you're logged in, and click "Fork". 
 
-![depicting position a look of the fork button on a GitHub repository](../../static/fork_button.png)
+![depicting position a look of the fork button on a GitHub repository](../../static/fork.png)
 
 You'll be asked to create a new fork; simply add a new repository name, provide a short description, or keep the existing one, check the box "Copy the main branch only," and click the "Create fork" button.
 
 ![depicting position a look of the fork button on a GitHub repository](../../static/create_fork.png)
+
+```{note}
+Alternatively, instead of forking, you can click on "Use this template", which achieves the same result.
+![depicting position of the "Use this template" button on a GitHub repository](../../static/use-template.png)
+
+```
 
 Great job! Your course repository is ready! If you'd like to explore the template's structure and make your first customizations, you can skip the following section on creating a repository from scratch.
 
