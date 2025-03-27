@@ -1,5 +1,5 @@
 # Integrating Media Into Your Content
-In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. 
+In this section, you will learn how to embed images, videos, presentations, and GIFs into your course. Of course, it’s important to ensure that you have the proper licenses for any media you use.
 
 ## Images
 In Jupyter Books, there are few different ways to include images. Here, we will highlight the way that is most optimal for hosting your website with our provided `build` script, located in the '.github/workflows' directory of our course template.
