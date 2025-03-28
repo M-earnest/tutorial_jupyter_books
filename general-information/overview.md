@@ -6,15 +6,14 @@ The course is divided into several modules, each covering a step in creating you
 
 This tutorial is further paired with a template course that you can find [here](https://github.com/diler-digitell/course-template). We'll, in essence, teach you how to adapt this template to host your own online courses. An explanation of the template can be found in the chapter on [Hosting Your Course Website](../content/2_host/host_website).
 
-
 ## Objectives 📍
 
 **At the end of the course, you will be able to:**
-
-* Create content with markdown
-* Create your own online course or website using Jupyter Book
-* Host courses using GitHub Pages
-
+* Get to know how Jupyter Books work.
+* See the benefits for teaching and research.
+* Build your own online course or website with Jupyter Book.
+* Create and format content using Markdown.
+* Use GitHub Pages to host and share your materials.
 
 ## Structure of the Course
 
