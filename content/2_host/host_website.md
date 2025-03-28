@@ -39,7 +39,7 @@ Please take a closer look at the `.github/workflows` folder, where you'll find a
 
 6. At the bottom of the page, under "Workflow permissions," select the option "Read and write permissions" and allow Github Actions to create and approve pull requests. Then, click on save.
 
-![Image of the workflow permissions.](../../static/workflow-permissions.png)
+![Image of the workflow permissions.](../../static/workflow_permissions.png)
 
 7. Push a new commit to your repo, i.e. make a change to one file (e.g., add a line to your `README.md`).
 
