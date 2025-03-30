@@ -22,8 +22,8 @@ parts:
     sections:
     - file: content/3_create/markdown
     - file: content/3_create/media
+    - file: content/3_create/interactive2
     - file: content/3_create/citations
-    - file: content/3_create/interactive
     - file: content/3_create/setup-files
   - file: general-information/wrap-up
 - caption: Additional Material
