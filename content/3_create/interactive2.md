@@ -793,7 +793,7 @@ display(questions_box, buttons_box, feedback_output)
 
 💡 __You only need to edit the dictionary to modify the questions.__
 
-### Step 3: Add the Notebook to GitHub
+### __Step 3:__ Add the Notebook to GitHub
 
 __Optional:__ Create markdown cells above or below the code to provide intructions and additional information.
 
@@ -803,7 +803,7 @@ __Optional:__ Create markdown cells above or below the code to provide intructio
 
 3. __Save__ and __Commit__ your changes to GitHub.
 
-### Step 4: Create the MyBinder Link
+### __Step 4:__ Create the MyBinder Link
 
 1. Visit __MyBinder__ (https://mybinder.org)
 2. Fill in the following:
@@ -819,7 +819,7 @@ __Optional:__ Create markdown cells above or below the code to provide intructio
     * Click __Launch__ and test your quiz.
 
 
-### Step 5: Add the Binder Link to Your Course Page
+### __Step 5:___ Add the Binder Link to Your Course Page
 
 Copy your __Binder URL__ and paste it into your course content.
 
@@ -828,7 +828,7 @@ __Example:__
 [Click here to launch the the quiz on Binder](https://mybinder.org/v2/gh/your_username/your_repository/main/?urlpath=voila%2Frender%2Finteractives%2Fmultiple_choice_task.ipynb)
 ```
 
-### Step 6: Add Required Packages
+### __Step 6:__ Add Required Packages
 
 Go to your `requirements.txt` file in your repository and add the following lines:
 
