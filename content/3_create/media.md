@@ -17,23 +17,20 @@ Result:
 
 ![Image of the DiLER project logo](../../static/logo.png)
 
-Alternatively, you can include the image link as follows:
-`![alternative_imagetext](https://YOURGITHUBNAME.github.io/PROJECTNAME/static/FILENAME.png)`
+Alternatively, you can include the image link leading to files in you repo as follows:
+
+`![alternative_imagetext](https://github.com/[your-github-name]/[your-repo-name]/blob/main/static/[filename].png?raw=true)`
 
 As you are able to use essentially any image link, you can add images that are hosted through other websites, too!
 
 ### Using HTML
 If you want more control about the size, orientation and more, you will have to rely on HTML tags. E.g. the following line of code will present the same image as above only downscaled to a width of 200 pixels.
 
-`<img src="https://DiLER-Digitell.github.io/tutorial_jupyter_books/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">`
+`<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png?raw=true" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">`
 
 which results in: 
 
-<img src="https://DiLER-Digitell.github.io/tutorial_jupyter_books/static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">
-
-<img src="../../static/logo.png" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">
-
-<img src="https://felixkoerber.github.io/jb/_static/logo.png" alt="logo" class="bg-primary mb-1" width="200px"> 
+<img src="https://github.com/DiLER-Digitell/tutorial_jupyter_books/blob/main/static/logo.png?raw=true" alt="Image of the DiLER project logo" class="bg-primary mb-1" width="200px">
 
 --- 
 
@@ -41,11 +38,11 @@ which results in:
 
 | Keyword | Description | 
 | ----- | -----|
-|`<img>` | an HTML tag used to display an image on a web page. |
-|`src="../../static/logo.png"` | an attribute that specifies the URL or path to the image file you want to display. |
-|`alt="Image of the DiLER project logo"` | an attribute that provides alternative text for the image. This text is used by screen readers for visually impaired users, and it is also displayed when the image cannot be loaded for some reason. |
-|`class="bg-primary mb-1"` | an attribute that defines the CSS class or classes to apply to the image. In this case, the class bg-primary sets the background color of the image to a primary color, and mb-1 adds a margin-bottom of 1 unit to the image. |
-|`width="200px"` | an attribute that sets the width of the image to 200 pixels. This can be adjusted to suit your needs. |
+|`<img>` | An HTML tag used to display an image on a web page. |
+|`src` | An attribute that specifies the URL of the image file you want to display. |
+|`alt` | An attribute that provides alternative text for the image. This text is used by screen readers for visually impaired users, and it is also displayed when the image cannot be loaded for some reason. |
+|`class="bg-primary mb-1"` | An attribute that defines the CSS class or classes to apply to the image. In this case, the class bg-primary sets the background color of the image to a primary color, and mb-1 adds a margin-bottom of 1 unit to the image. |
+|`width="200px"` | An attribute that sets the width of the image to 200 pixels. This can be adjusted to suit your needs. |
 
 Simply copy-paste the above line of code and adjust it to your need as necessary to embed every kind of image into your notebooks.
 
