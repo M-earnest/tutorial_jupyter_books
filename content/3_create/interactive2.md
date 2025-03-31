@@ -13,9 +13,9 @@ By the end of this section, you will be able to:
 * __Integrate interactive demonstrations__ to reinforce concepts
 * __Use interactivity__ to make content more personalized and effective
 
-## The Limitations GitHub Pages
+## Limitations of GitHub Pages
 
-While GitHub Pages is a powerful way to host educational resources, it is fundamentally a __static site generator__. This means it can render and display __HTML__, __Markdown__, __Jupyter Books__, and and other __media__, but only in __static form__. It cannot execute a code or respond to user input in real time. 
+While GitHub Pages is a powerful way to host educational resources, it is fundamentally a __static site generator__. This means it can render and display __HTML__, __Markdown__, __Jupyter Books__, and other __media__, but only in __static form__. It cannot execute a code or respond to user input in real time. 
 
 * __Code cells__ cannot run directly on a GitHub Pages site.
 * __Dynamic visualizations__ won’t work natively.
@@ -27,7 +27,7 @@ This limitation can be a barrier to effective engagement, especially when learne
 
 To overcome the limitations of static sites, <strong>MyBinder</strong> provides an elegant solution. 
 
-MyBinder is a free and open-source service that runs on Jupyter Notebooks __without requiring any local installation__. It allows users to create share __live__ versions of notebooks for delivering interactive learning activities. You can configure MyBinder with a specific environment, datasets, and code to ensure reproducibility. You can __create and share a link__ that launches a ready-to-use version of your content.
+MyBinder is a free and open-source service that runs on Jupyter Notebooks __without requiring any local installation__. It allows users to create and share __live__ versions of notebooks for delivering interactive learning activities. You can configure MyBinder with a specific environment, datasets, and code to ensure reproducibility. You can __create and share a link__ that launches a ready-to-use version of your content.
 
 MyBinder enables:
 
@@ -45,19 +45,19 @@ One of the most powerful features of Jupyter Book is the ability to integrate My
 
 Below is a step-by-step guide to setting up MyBinder — and why you may want to do so selectively.
 
-####  1. Setting up the MyBinder environment
+####  1. Setting Up the MyBinder Environment
 
-1. Go to [mybinder.org](mybinder.org)
-2. Enter your GitHub reposotory
-3. Click `Lauch` to test your environment
+1. Go to [mybinder.org](mybinder.org).
+2. Enter your GitHub repository.
+3. Click `launch` to test your environment.
 
 <img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/binder_ins_image.png" alt="MyBinder Set-Up" width="1000" height="auto">
 
 Once it successfully launches, copy the `MyBinder URL` or `Binder badge code`. 
-The badge is a clickable image that opens the environment when clicked. You can add this badge to your Jupyter Book’s README or any .md/.ipynb file to give readers direct access.
+The badge is a clickable image that opens the environment when clicked. You can add this badge to your Jupyter Book’s README or any Markdown/Jupyter Notebook file to give readers direct access.
 
 #### 2. Changing the `_config.yml`
-To make interactive buttons appear within Jupyter Book pages, modify the _config.yml file_ found in the lecture folder add the following bit of code:
+To make interactive buttons appear within Jupyter Book pages, modify the `config.yml` file found in the lecture folder by adding the following bit of code:
 
 ```# Launch button settings
 launch_buttons:
@@ -78,18 +78,18 @@ Now, both the `Binder`- and `Live Code` Badge are displayed on your Book and you
 
 Although making your entire book interactive with Binder is powerful, it also has significant downsides that can affect user experience, performance, and scalability:
 
-❌ __1. Binder Can Be Slow and Unreliable__
+❌ __1. Binder can be slow and unreliable__
 
 * Launching Binder can take 30–90 seconds.
 * It runs on limited, shared resources.
 * Sessions may disconnect or time out.
 
-❌ __2. Not All Pages Need Interactivity__
+❌ __2. Not all pages need interactivity__
 
 * Static pages like theory, instructions, and reading material don’t need an active Binder kernel.
 * Enabling intractivity through Binder on every page adds unnecessary overhead without real benefits.
 
-❌ __3. Launching the Entire Reposotory is not User-Friendly__
+❌ __3. Launching the entire repository is not user-friendly__
 
 * Binder opens the file browser with all files visible.
 * Learners may not know which file to open or how to proceed.
@@ -101,8 +101,8 @@ Although making your entire book interactive with Binder is powerful, it also ha
 Instead of enabling interactivity across your entire course, a more effective approach is to __designate specific notebooks__ for interactive elements and place them exactly where they are needed. These notebooks:
 
 * __Do not__ form part of the main course structure in `_toc.yml`.
-* __Do__ serve targeted purposes like quick demos, progress questions, or simulations.
-* __Live__ in a separate folder (e.g., `extras/`, `binder/`, or `interactives/`).
+* Do __serve targeted purposes__ like quick demos, progress questions, or simulations.
+* __Live in a separate folder__ (e.g., `extras/`, `binder/`, or `interactives/`).
 * __Are linked directly__ from relevant sections of your course with explicit Binder links.
 
 This way, readers can quickly launch the notebooks that require interactivity without cluttering or slowing down the entire book. It also provides a more __guided__ experience, focusing attention on the exact tasks that benefit from running code.
@@ -119,24 +119,23 @@ By keeping your main book static and only linking to Binder for specific, high-v
 
 ## __Instructions__
 
-### __Step 1:__ Set Up Your repository
+### __Step 1:__ Set Up Your Repository
 
 1. Ensure you have already created and set up your GitHub repository.
 
 2. Inside your repository, create a folder named `interactives`.
 
-    - In yout GitHub reposotory, click on `Add File` &rarr; `Create new file`
+    - In your GitHub repository, click on `Add File` &rarr; `Create new file`
     - In `Name your file...` box, enter `interactives/.gitkeep.`
     - Click on `Commit Changes`
 
 <img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/create_new_folder.png" alt="Create_New_Folder" width="1200" height="auto">
 
-### __Step 2:__ Create the Interactive Task you Want
+### __Step 2:__ Create the Interactive Task You Want
 
-1. Create a new file: i.e. `multiple_choice_task.ipynb`
+1. Create a new Jupyter Notebook file in your ìnteractives` folder: i.e. `multiple_choice_task.ipynb`.
 
-2. Copy-paste the code for the task you want to create inside your Notebook 
-
+2. Copy-paste the code for the task you want to create inside your Notebook.
 
 <style>
 
@@ -789,46 +788,37 @@ display(questions_box, buttons_box, feedback_output)
 
 </div>
 
-
-
 💡 __You only need to edit the dictionary to modify the questions.__
 
-### __Step 3:__ Add the Notebook to GitHub
+3. __Optional:__ Create markdown cells above or below the code to provide intructions and additional information.
 
-__Optional:__ Create markdown cells above or below the code to provide intructions and additional information.
+4. Click on "Commit changes" to save the file.  
 
-1. Save the notebook as `multiple_choice_task.ipynb` (or any other name).
-
-2. Place it inside the `interactives` folder in your GitHub repository.
-
-3. __Save__ and __Commit__ your changes to GitHub.
-
-### __Step 4:__ Create the MyBinder Link
+### __Step 3:__ Create the MyBinder Link
 
 1. Visit __MyBinder__ (https://mybinder.org)
 2. Fill in the following:
-
-    * GitHUb repository: `https://github.com/your_user_name/your_reposotory`
-
+    * GitHub repository: `https://github.com/your_user_name/your_repository`
     * Git ref (branch, tag, or commit): `main`
-
     * File to open (in JupyterLab): `voila/render/interactives/multiple_choice_task.ipynb`
-
     * Make sure to switch from `File` to `URL`
-
     * Click __Launch__ and test your quiz.
 
+![Image of the binder section where you need to fill in the information as instructed.](../../static/binder_filled.png)
 
-### __Step 5:___ Add the Binder Link to Your Course Page
+### __Step 4:___ Add the Binder Link to Your Course Page
 
-Copy your __Binder URL__ and paste it into your course content.
+1. Copy your __Binder URL__.
 
+![Image of the binder section where you need to fill in the information as instructed.](../../static/binder-link.png)
+
+2. Paste it into your course content.
 __Example:__
 ```markdown
-[Click here to launch the the quiz on Binder](https://mybinder.org/v2/gh/your_username/your_repository/main/?urlpath=voila%2Frender%2Finteractives%2Fmultiple_choice_task.ipynb)
+[Click here to launch the quiz on Binder](https://mybinder.org/v2/gh/your_username/your_repository/main/?urlpath=voila%2Frender%2Finteractives%2Fmultiple_choice_task.ipynb)
 ```
 
-### __Step 6:__ Add Required Packages
+### __Step 5:__ Add Required Packages
 
 Go to your `requirements.txt` file in your repository and add the following lines:
 
@@ -865,7 +855,7 @@ Use a single Jupyter Notebook that:
 
 ### How to Do It
 
-1. Organize your Jupyter notebook like a **chapter**:
+1. Organize your Jupyter Notebook like a **chapter**:
 
    * Title and learning objectives (Markdown)
    * Explanation of the concept (Markdown)
@@ -875,7 +865,7 @@ Use a single Jupyter Notebook that:
 
 2. Keep everything in one `.ipynb` file.
 
-3. Add them to your `interactives` folder in GitHub repository.
+3. Add the file to your `interactives` folder.
 
 4. Launch it using __MyBinder__ like this:
 
