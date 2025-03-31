@@ -26,6 +26,7 @@ parse:
     # don't forget to list any other extensions you want enabled,
     # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
     - html_image
+    - dollarmath
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -79,7 +80,7 @@ sphinx:
     bibtex_reference_style: author_year
     bibtex_bibfiles:
       - references.bib
-    mathjax3_config:
+    mathjax_config:
       TeX:
         Macros:
           "N": "\\mathbb{N}"
