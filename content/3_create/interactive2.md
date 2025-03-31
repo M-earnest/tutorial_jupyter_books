@@ -133,7 +133,7 @@ By keeping your main book static and only linking to Binder for specific, high-v
 
 ### __Step 2:__ Create the Interactive Task You Want
 
-1. Create a new Jupyter Notebook file in your ìnteractives` folder: i.e. `multiple_choice_task.ipynb`.
+1. Create a new Jupyter Notebook file in your `interactives` folder: i.e. `multiple_choice_task.ipynb`.
 
 2. Copy-paste the code for the task you want to create inside your Notebook.
 
