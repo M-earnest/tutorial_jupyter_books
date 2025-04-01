@@ -27,7 +27,6 @@ parse:
     # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
     - html_image
     - dollarmath
-    - amsmath
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -64,16 +63,6 @@ html:
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis: true
-  mathjax:
-    version: "3"
-
-# Jupytext configurations
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-
 
 ##########################################################################################
 # Adding Sphinx Extensions
@@ -87,7 +76,6 @@ sphinx:
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
   - sphinxcontrib.bibtex
-  - sphinx.ext.mathjax
   config:    
     bibtex_reference_style: author_year
     bibtex_bibfiles:
