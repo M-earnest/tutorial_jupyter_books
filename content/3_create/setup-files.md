@@ -60,7 +60,7 @@ parts:
 The chapter names displayed on your website are defined by the top-level heading of the respective file. For instance, for this page, the top-level header looks like this: `# Organizing Content With the Table of Contents` 
 ```
 
-#### Adapting the toc.yml/Table of Contents
+## Adapting the toc.yml/Table of Contents
 
 To add your course content, simply provide the path to your newly created or adapted file, including the respective filename to this document. For this, you can simply copy-paste the existing lines of the provided "toc.yml" and exchange the example filenames with your own filenames. It is further easiest if you simply adapt the `index.md` file provided with our template as the `root`, i.e. the landing page of a website.
 
@@ -82,5 +82,5 @@ While this should cover the basics, feel free to check out [Jupyter Book's Manua
 
 
 
-### Next Section:
+## Next Section:
 In the next section, we will recap what you have learned in this course and provide information on how to reach us if you encounter any issues.
