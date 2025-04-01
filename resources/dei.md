@@ -17,7 +17,7 @@ A short overview video from the [Department of Medicine](https://healthsci.mcmas
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qin_5SNsX8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A set of videos from the [Southern Regional Education Board](www.SREB.org) focusing on `Equity and Diversity in Higher Education,` including multiple presentations.
+A set of videos from the [Southern Regional Education Board](https://ies.ed.gov/about/organization/southern-regional-education-board) focusing on `Equity and Diversity in Higher Education,` including multiple presentations.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PgOERhmfJj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
