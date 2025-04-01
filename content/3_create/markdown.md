@@ -1,18 +1,3 @@
----
-html:
-  mathjax:
-    version: "3"
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Formatting Content With Markdown
 
 In this section, we’ll cover key Markdown formatting basics along with some MyST formatting features. MyST is a markup language inspired by RMarkdown, supported by both .ipynb and .md files in Jupyter Book. It offers advanced formatting options and lets you integrate interactive elements, such as widgets, dropdowns, and code snippets, into your content. For more details, we encourage you to explore the [MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html). 
