@@ -1,3 +1,10 @@
+---
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Formatting Content With Markdown
 
 In this section, we’ll cover key Markdown formatting basics along with some MyST formatting features. MyST is a markup language inspired by RMarkdown, supported by both .ipynb and .md files in Jupyter Book. It offers advanced formatting options and lets you integrate interactive elements, such as widgets, dropdowns, and code snippets, into your content. For more details, we encourage you to explore the [MyST website](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html). 
@@ -240,16 +247,16 @@ You can also display a URL as a clickable link without custom text by using angl
 
 Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples of how to implement this using the Python programming language.: 
 
-```python
+```{code-cell} python
 %matplotlib inline
 ```
 
-```python
+```{code-cell} python
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-```python
+```{code-cell} python
 x = np.linspace(0, 2*np.pi, 300)
 y = np.sin(x**2)
 plt.plot(x, y)
@@ -257,7 +264,7 @@ plt.title("A little chirp")
 fig = plt.gcf()  # let's keep the figure object around for later...
 ```
 
-```python
+```{code-cell} python
 import plotly.figure_factory as ff
 
 # Add histogram data
