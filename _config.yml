@@ -76,12 +76,11 @@ sphinx:
   - sphinx.ext.autodoc
   - sphinx.ext.viewcode
   - sphinxcontrib.bibtex
-  - myst_parser
   config:    
     bibtex_reference_style: author_year
     bibtex_bibfiles:
       - references.bib
-    math3jax_config:
+    mathjax3_config:
       TeX:
         Macros:
           "N": "\\mathbb{N}"
