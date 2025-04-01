@@ -51,7 +51,7 @@ Below is a step-by-step guide to setting up MyBinder — and why you may want to
 2. Enter your GitHub repository.
 3. Click `launch` to test your environment.
 
-<img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/binder_ins_image.png" alt="MyBinder Set-Up" width="1000" height="auto">
+<img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/binder_ins_image.png" alt="MyBinder Set-Up" width="1000">
 
 Once it successfully launches, copy the `MyBinder URL` or `Binder badge code`. 
 The badge is a clickable image that opens the environment when clicked. You can add this badge to your Jupyter Book’s README or any Markdown/Jupyter Notebook file to give readers direct access.
@@ -129,7 +129,7 @@ By keeping your main book static and only linking to Binder for specific, high-v
     - In `Name your file...` box, enter `interactives/.gitkeep.`
     - Click on `Commit Changes`
 
-<img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/create_new_folder.png" alt="Create_New_Folder" width="1200" height="auto">
+<img src="https://raw.githubusercontent.com/DiLER-Digitell/tutorial_jupyter_books/main/static/create_new_folder.png" alt="Create_New_Folder" width="1200">
 
 ### __Step 2:__ Create the Interactive Task You Want
 
