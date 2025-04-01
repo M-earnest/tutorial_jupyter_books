@@ -4,6 +4,10 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # Formatting Content With Markdown
@@ -121,14 +125,6 @@ def f(x):
   return x**2
 </code>
 
-## Writing Latex 
-
-Let's use `$` for in-line math and `$$` for math blocks.
-
-|Syntax   | Output|
-|---|---|
-|`$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$`| $F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$|
-
 ## Special Content Blocks - Directives and Roles
 Directives and Roles are like functions in a markup language, allowing you to customize the look and feel of your Jupyter Book. Below are some common examples:
 
@@ -181,22 +177,18 @@ Here is a (hidden) tip
 ### Roles
 Roles are inline commands for formatting or referencing content. E.g., you can use the following roles in your book:
 - {doc} to link to other pages of your book
-- {math} for math expressions
 - {cite} for citations (see {doc}`citations` for more details)
 - {abbr} for abbreviations
 
 Examples: 
 ```
 {doc}`../1_github/intro`
-{math}`E = mc^2`
 {cite}`munafo2017manifesto`
 {abbr}`MyST (Markedly Structured Text)`
 ```
 Which result to:
 
 {doc}`../1_github/intro`
-
-{math}`E = mc^2`
 
 {cite}`munafo2017manifesto`
 
