@@ -250,7 +250,7 @@ You can also display a URL as a clickable link without custom text by using angl
 
 ### Plotting in the Notebook
 
-Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples: 
+Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples of how to implement this using the Python programming language.: 
 
 ```{code-cell} python
 %matplotlib inline
