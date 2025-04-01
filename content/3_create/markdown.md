@@ -183,15 +183,28 @@ Here is a (hidden) tip
 ```
 
 #### Roles
-Roles are very similar in usage. However, they are somewhat simpler and are used in-line.
+Roles are inline commands for formatting or referencing content. E.g., you can use the following roles in your book:
+- {doc} to link to other pages of your book
+- {math} for math expressions
+- {cite} for citations (see {doc}`citations` for more details)
+- {abbr} for abbreviations
 
-For example, if you want to reference another page of your book, you can use the `{doc}`role:
+Examples: 
 ```
 {doc}`../1_github/intro`
-``` 
-Which results in: 
+{math}`E = mc^2`
+{cite}`munafo2017manifesto`
+{abbr}`MyST (Markedly Structured Text)`
+```
+Which result to:
 
-{doc}`../1_github/intro`.
+{doc}`../1_github/intro`
+
+{math}`E = mc^2`
+
+{cite}`munafo2017manifesto`
+
+{abbr}`MyST (Markedly Structured Text)`
 
 ### Include Links
 
