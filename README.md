@@ -1,6 +1,6 @@
 ![logo](static/logo.png)
 
-## What's in this repository?
+# What's in this repository?
 
 This repository contains a tutorial on how to create interactive content with Jupyter Books, developed as part of the DiLER project of the Goethe-University Frankfurt.
 
