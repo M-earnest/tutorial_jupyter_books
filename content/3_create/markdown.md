@@ -240,16 +240,16 @@ You can also display a URL as a clickable link without custom text by using angl
 
 Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples of how to implement this using the Python programming language.: 
 
-```{code-cell} python
+```{python} 
 %matplotlib inline
 ```
 
-```{code-cell} python
+```{python}
 import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-```{code-cell} python
+```{python}
 x = np.linspace(0, 2*np.pi, 300)
 y = np.sin(x**2)
 plt.plot(x, y)
@@ -257,7 +257,7 @@ plt.title("A little chirp")
 fig = plt.gcf()  # let's keep the figure object around for later...
 ```
 
-```{code-cell} python
+```{python}
 import plotly.figure_factory as ff
 
 # Add histogram data
