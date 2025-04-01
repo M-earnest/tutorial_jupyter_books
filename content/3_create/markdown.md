@@ -16,7 +16,7 @@ In this section, we’ll cover key Markdown formatting basics along with some My
 
 Now, let's start with the fundamentals.
 
-### Headings
+## Headings
 
 You can add headings using Markdown's syntax by adding `#` before your heading. You can vary the heading level by increasing the amount of hash signs:
 ```
@@ -25,14 +25,14 @@ You can add headings using Markdown's syntax by adding `#` before your heading. 
 ### Heading 1.1.1
 ```
 
-### Italic
+## Italic
 To make a text _italic_ add `_` or `*` before and after the word: 
 |Syntax   | Output|
 |---|---|
 |`_italic_`| _italic_ |
 |`*italic*` | *italic*|
 
-### Bold
+## Bold
 To make a text **bold** add `__` or `**` before and after the word: 
 
 |Syntax   | Output|
@@ -40,7 +40,7 @@ To make a text **bold** add `__` or `**` before and after the word:
 |`__bold__`| __bold__ |
 |`**bold**` | **bold**|
 
-### (Nested) Lists
+## (Nested) Lists
 You can build nested itemized or enumerated lists using either `*` or `-` before a word:
 
 ```
@@ -76,12 +76,12 @@ Which results in:
 2. There we go
 3. Now this
   
-### Horizontal Lines
+## Horizontal Lines
 You can add horizontal rules using three underscores `___` resulting in:
 
 ---
 
-### Blockquotes
+## Blockquotes
 To create a blockquote, it is as simple as putting a `>` before a text.
 
 Here is a blockquote:
@@ -98,7 +98,7 @@ And it's formatted like this:
 > Complex is better than complicated.
 
 
-### Embedded Code
+## Embedded Code
 
 You can embed code meant for illustration instead of execution in Python by adding `` around statements:
 
@@ -125,7 +125,7 @@ def f(x):
   return x**2
 </code>
 
-### Writing Latex 
+## Writing Latex 
 
 Let's use `$` for in-line math and `$$` for math blocks.
 
@@ -133,10 +133,10 @@ Let's use `$` for in-line math and `$$` for math blocks.
 |---|---|
 |`$F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$`| $F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} \mathrm{d} x$|
 
-### Special Content Blocks - Directives and Roles
+## Special Content Blocks - Directives and Roles
 Directives and Roles are like functions in a markup language, allowing you to customize the look and feel of your Jupyter Book. Below are some common examples:
 
-#### Directives
+### Directives
 Directives let you add special content blocks, such as notes, tips, or warnings.
 
 For example, if you want to add a note, use this format:
@@ -182,7 +182,7 @@ Result:
 Here is a (hidden) tip
 ```
 
-#### Roles
+### Roles
 Roles are inline commands for formatting or referencing content. E.g., you can use the following roles in your book:
 - {doc} to link to other pages of your book
 - {math} for math expressions
@@ -206,11 +206,11 @@ Which result to:
 
 {abbr}`MyST (Markedly Structured Text)`
 
-### Include Links
+## Include Links
 
 When adding links, you have several options. Here are the most common methods:
 
-#### External Links
+### External Links
 To link to an external website, use the following format: `[text](https://example.com)`
 
 |||
@@ -218,7 +218,7 @@ To link to an external website, use the following format: `[text](https://exampl
 |Example|`[Learn formatting with Markdown](https://www.markdownguide.org/basic-syntax/)`|
 |Result|[Learn formatting with Markdown](https://www.markdownguide.org/basic-syntax/)|
 
-#### URL in New Tab
+### URL in New Tab
 If you want the link to be opened in a new tab automatically, your can use the following HTML based format: `<a href="https://example.com" target="_blank">text</a>`
 
 |||
@@ -226,7 +226,7 @@ If you want the link to be opened in a new tab automatically, your can use the f
 |Example|`[Learn formatting with Markdown](https://www.markdownguide.org/basic-syntax/){target="_blank"}`|
 |Result|<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Learn formatting with Markdown</a>.|
 
-#### Linking Another Page In Your Course
+### Linking Another Page In Your Course
 If you want to reference another file within your own project, use a relative path: `[text](relative_path)` 
 
 ```{note}
@@ -240,7 +240,7 @@ When using relative paths, ../ is a special notation that tells the system to mo
 
 This method gives you full flexibility in how you phrase the link text. Alternatively, you can use the {doc} role, as explained above.
 
-#### Direct URL
+### Direct URL
 You can also display a URL as a clickable link without custom text by using angle brackets < >: `<URL>`
 
 |||
@@ -248,7 +248,7 @@ You can also display a URL as a clickable link without custom text by using angl
 |Example|`<https://www.markdownguide.org/basic-syntax/>`|
 |Result|<https://www.markdownguide.org/basic-syntax/>|
 
-### Plotting in the Notebook
+## Plotting in the Notebook
 
 Jupyter Book provides a range of powerful plotting options, including both static and interactive graphics. For more details, check out this [guide](https://jupyterbook.org/en/stable/content/executable/index.html#). Below are some examples of how to implement this using the Python programming language.: 
 
