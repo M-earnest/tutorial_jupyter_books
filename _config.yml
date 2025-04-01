@@ -64,6 +64,16 @@ html:
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis: true
+  mathjax:
+    version: "3"
+
+# Jupytext configurations
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+
 
 ##########################################################################################
 # Adding Sphinx Extensions
