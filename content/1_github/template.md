@@ -61,7 +61,7 @@ As soon as you click on "Commit changes", your changes will be saved.
 
 It is further essential that you adapt the README and LICENSE files to your needs:
 
-#### The README
+### The README
 
 To actually display the purpose and, e.g., acknowledgments of your course, you'll have to adapt the `README.md` file on your public repo. In the template, this looks like this:
 
@@ -75,7 +75,7 @@ Feel free to add some details about your course now! Click on the `README.md`, t
 
 We'll revisit the `README.md` file later in the section {doc}`../3_create/markdown`, where you'll learn how to format it using Markdown.
 
-#### The LICENSE
+### The LICENSE
 
 The course template is licensed under the BSD 3-Clause License. Feel free to modify the LICENSE file as needed, provided you comply with the terms outlined in the license.
 
