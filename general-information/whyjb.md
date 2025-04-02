@@ -52,5 +52,4 @@ By leveraging Jupyter Books, educators can create dynamic, reusable, and interac
 
 ## Next Chapter: 
 
-In the next chapter, you will learn about GitHub and how to create your own project. 
-
+In the next chapter you will discover what Github is, how to create an account, and how to start a new project.
