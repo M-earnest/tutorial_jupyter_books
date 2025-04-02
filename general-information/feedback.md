@@ -1,3 +1,9 @@
+<style>
+  .navbar .previous, .navbar .next {
+      display: none;
+  }
+</style>
+
 # Feedback Questions
 
 ### Can you imagine working with this framework?
