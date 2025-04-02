@@ -15,8 +15,9 @@ Finally, you explored the types of files you can integrate into your Jupyter Boo
 
 We wish you the best of luck as you create your first course website and begin populating the pages. If you ever need advice or consultation, please don’t hesitate to reach out to us. Our contact information can be found here: {doc}../../intro/overview.
 
-If you're eager to dive deeper, we’ve gathered some additional content for you:
+For up-to-date information and more details, check out the official [Jupyter Book documentation](https://jupyterbook.org/en/stable/intro.html#).
 
+Also, if you're eager to dive deeper, we’ve gathered some additional content for you: (in development – stay tuned!)
 
 - **[Introduction to Git](../4_additional/git/intro)**
 Learn what Git is and how to use it for local editing and version control.
