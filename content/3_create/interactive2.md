@@ -133,7 +133,45 @@ By keeping your main book static and only linking to Binder for specific, high-v
 
 ### __Step 2:__ Create the Interactive Task You Want
 
-1. Create a new Jupyter Notebook file in your `interactives` folder: i.e. `multiple_choice_task.ipynb`.
+1. Create a new Jupyter Notebook file, i.e. `multiple_choice_task.ipynb`.
+
+<div class="google-colab-section">
+  <style>
+    .google-colab-section details {
+      background-color: #f2f2f2;
+      border-radius: 6px;
+      width: 100%;
+      max-width: 400px;
+      margin-left: 45px;
+    }
+    .google-colab-section summary {
+      font-size: 1em; 
+      background-color: #f2f2f2;
+      color: #333;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      margin: 0;
+    }
+    .google-colab-section summary:hover {
+      background-color: #e0e0e0;
+    }
+
+  </style>
+
+  <details>
+    <summary>⚠️ Don't have Jupyter Notebooks installed?</summary>
+    <p><strong>Alternative: </strong>Use Google Colab (no installation needed):</p>
+    <ol>
+      <li>Go to <a href="https://colab.research.google.com" target="_blank">colab.research.google.com</a></li>
+      <li>Click <strong>"New Notebook"</strong></li>
+      <li>Paste your provided code</li>
+      <li>Edit as needed</li>
+      <li>Click <strong>File > Save a copy in Drive</strong></li>
+    </ol>
+    <p> <strong>Note. </strong>A Google account is required.</p>
+  </details>
+</div>
+
 
 2. Copy-paste the code for the task you want to create inside your Notebook.
 
@@ -194,7 +232,7 @@ By keeping your main book static and only linking to Binder for specific, high-v
   <strong><u>NOTE</u>:</strong>
     <p style="color: rgb(0, 0, 0);">By adjusting the code below, you should be able to create something like this:</p>
   <p>
-    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2FMCQ_feedback.ipynb" style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Multiple-Choice Quiz on MyBinder</a>
+    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2FMCQ_feedback.ipynb" target="_blank"; style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Multiple-Choice Quiz on MyBinder</a>
   </p>
 </div>
 
@@ -432,7 +470,7 @@ display(questions_box, buttons_box, feedback_output)
   <strong><u>NOTE</u>:</strong>
     <p style = "color:rgb(0, 0, 0);">By adjusting the code below, you should be able to create something like this:</p>
   <p>
-    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2FOEQ_feedback.ipynb" style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Quiz with Open-Ended Questions on MyBinder</a>
+    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2FOEQ_feedback.ipynb" target="_blank"; style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Quiz with Open-Ended Questions on MyBinder</a>
   </p>
 </div>
 
@@ -626,7 +664,7 @@ display(questions_box, buttons_box, feedback_output)
     <p style= "color:rgb(0, 0, 0);">By adjusting the code below, you should be able to create something like this:</p>
     </p>
   <p>
-    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2Flikert_feedback.ipynb" style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Progress Questions with Likert Scales on MyBinder</a>
+    <a href="https://mybinder.org/v2/gh/DiLER-Digitell/tutorial_jupyter_books/main/?urlpath=voila%2Frender%2Finteractives%2Flikert_feedback.ipynb" target="_blank"; style="color: #e67e22; font-size: 1.2em; font-weight: bold; text-decoration: none;">👉 Launch Progress Questions with Likert Scales on MyBinder</a>
   </p>
 </div>
 
@@ -773,7 +811,6 @@ def on_submit_click(_):
 def on_retake_click(_):
     with feedback_output:
         clear_output()
-    # Reset all toggles
     for (_, toggles, _) in question_widgets:
         toggles.value = None
 submit_button.on_click(on_submit_click)
@@ -790,9 +827,10 @@ display(questions_box, buttons_box, feedback_output)
 
 💡 __You only need to edit the dictionary to modify the questions.__
 
+
 3. __Optional:__ Create markdown cells above or below the code to provide intructions and additional information.
 
-4. Click on "Commit changes" to save the file.  
+4. Add an `ipynb` file to the `interactives` folder in your repository and click on __Commit changes__ 
 
 ### __Step 3:__ Create the MyBinder Link
 
