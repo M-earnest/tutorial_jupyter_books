@@ -28,7 +28,7 @@ Discover how to publish and maintain your own course website using our course te
 4) **[Creating Engaging Content](../content/3_create/intro)**
 Master the basics of creating and editing files, formatting with Markdown, and embedding media.
 
-**Additional sections:** 
+**Additional Chapters:** (in development – stay tuned!)
 - **[Quick Setup Guide](../content/4_additional/quick_tutorial)**
 Follow a step-by-step guide to quickly set up and deploy your course using Jupyter Book on GitHub. 
 - **[Introduction to Git](../content/4_additional/git/intro)**
