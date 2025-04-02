@@ -44,7 +44,7 @@ At the end of this page, you will see an example bibliography.
 
 
 ## Next Section:
-In the next section, you will learn how to integrate feedback questions.
+In the next section, you will learn how to adapt the Table of Content file in order to structure your online course.
 
 ----
 
