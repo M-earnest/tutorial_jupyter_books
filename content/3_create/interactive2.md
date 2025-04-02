@@ -146,6 +146,7 @@ By keeping your main book static and only linking to Binder for specific, high-v
     }
     .google-colab-section summary {
       font-size: 1em; 
+      font-weight: normal;
       background-color: #f2f2f2;
       color: #333;
       cursor: pointer;
@@ -160,15 +161,15 @@ By keeping your main book static and only linking to Binder for specific, high-v
 
   <details>
     <summary>⚠️ Don't have Jupyter Notebooks installed?</summary>
-    <p><strong>Alternative: </strong>Use Google Colab (no installation needed):</p>
+    <p style="color:rgb(0, 0, 0);"><strong>Alternative: </strong>Use Google Colab (no installation needed):</p>
     <ol>
-      <li>Go to <a href="https://colab.research.google.com" target="_blank">colab.research.google.com</a></li>
-      <li>Click <strong>"New Notebook"</strong></li>
-      <li>Paste your provided code</li>
-      <li>Edit as needed</li>
-      <li>Click <strong>File > Save a copy in Drive</strong></li>
+      <li style="color:rgb(0, 0, 0);">Go to <a href="https://colab.research.google.com" target="_blank">colab.research.google.com</a></li>
+      <li style="color:rgb(0, 0, 0);">Click <strong>"New Notebook"</strong></li>
+      <li style="color:rgb(0, 0, 0);">Paste your provided code</li>
+      <li style="color:rgb(0, 0, 0);">Edit as needed</li>
+      <li style="color:rgb(0, 0, 0);">Click <strong>File > Save a copy in Drive</strong></li>
     </ol>
-    <p> <strong>Note. </strong>A Google account is required.</p>
+    <p style="color:rgb(0, 0, 0);"> <strong>Note. </strong>A Google account is required.</p>
   </details>
 </div>
 
@@ -844,7 +845,7 @@ display(questions_box, buttons_box, feedback_output)
 
 ![Image of the binder section where you need to fill in the information as instructed.](../../static/binder_filled.png)
 
-### __Step 4:___ Add the Binder Link to Your Course Page
+### __Step 4:__ Add the Binder Link to Your Course Page
 
 1. Copy your __Binder URL__.
 
