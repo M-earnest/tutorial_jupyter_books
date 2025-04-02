@@ -26,6 +26,8 @@ parts:
     - file: content/3_create/citations
     - file: content/3_create/setup-files
   - file: general-information/wrap-up
+    sections:
+    - file: general-information/feedback
 - caption: Additional Material
   chapters:
   - file: content/4_additional/quick_tutorial
