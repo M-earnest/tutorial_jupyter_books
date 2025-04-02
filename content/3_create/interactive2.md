@@ -876,3 +876,6 @@ Use a single Jupyter Notebook that:
 - [Interactive Lesson 2](https://mybinder.org/v2/gh/your_user_name/yourCourse/main/?urlpath=voila%2Frender%2Finteractives%2Finteractive_lesson_2.ipynb)
 - [Interactive Lesson 3](https://mybinder.org/v2/gh/your_user_name/yourCourse/main/?urlpath=voila%2Frender%2Finteractives%2Finteractive_lesson_3.ipynb)
 ```
+
+## Next section:
+In the next section, you will learn how to integrate citations and bibliographies.
